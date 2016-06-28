@@ -8,7 +8,6 @@ import java.util.Set;
 /**
  * Created by lifei on 16/5/27.
  *
- * 3
  *  时间复杂度为O(N)的算法
  使用i和j两个指针进行搜索，i代表候选的最长子串的开头，j代表候选的最长子串的结尾。
  先假设i不动，那么在理想的情况下，我们希望可以一直右移j，直到j到达原字符串的结尾，此时j-i就构成了一个候选的最长子串。每次都维护一个max_length，就可以选出最长子串了。
@@ -20,8 +19,20 @@ import java.util.Set;
 public class LengthOfLongestSubstring {
     public static void main(String[] args) {
         LengthOfLongestSubstring lols = new LengthOfLongestSubstring();
-        lols.lengthOfLongestSubstring("abcdefcgh");
+        System.out.println(lols.lengthOfLongestSubstring("abcdefcgh"));
 
+    }
+
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[128]; // current index of character
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; ++j) {
+            i = Math.max(index[s.charAt(j)], i);//index['a']会将char转为ascII码,a是97
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;   //将j所在的值,的对应位置存到index数组中
+        }
+        return ans;
     }
 
 
@@ -56,20 +67,6 @@ public class LengthOfLongestSubstring {
 //        }
 //        return ans;
 //    }
-
-
-    public int lengthOfLongestSubstring(String s) {
-        int n = s.length(), ans = 0;
-        int[] index = new int[128]; // current index of character
-        // try to extend the range [i, j]
-        for (int j = 0, i = 0; j < n; ++j) {
-            i = Math.max(index[s.charAt(j)], i);
-            ans = Math.max(ans, j - i + 1);
-            index[s.charAt(j)] = j + 1;
-        }
-        return ans;
-    }
-
 
 
 //    public int lengthOfLongestSubstring(String s) {

@@ -15,37 +15,48 @@ package com.lifeibigdata.algorithms.leetcode;
  在每次计数的循环中要先判断两个数组指针是否超界，在最后return之前也要判断一次
  */
 public class FindMedianSortedArrays {
-//    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-//        int len1 = nums1.length;
-//        int len2 = nums2.length;
-//        int total = len1 + len2;
-//        if(total % 2==0){
-//            return (findKth(nums1,nums2,total/2)+findKth(nums1,nums2,total/2+1))/2.0;
-//        } else {
-//            return findKth(nums1,nums2,total/2+1);
-//        }
-//    }
-//    private int findKth(int[] nums1, int[] nums2, int k){
-//        int p = 0, q = 0;
-//        for(int i = 0; i < k - 1; i++){
-//            if(p>=nums1.length && q<nums2.length){
-//                q++;
-//            } else if(q>=nums2.length && p<nums1.length){
-//                p++;
-//            } else if(nums1[p]>nums2[q]){
-//                q++;
-//            } else {
-//                p++;
-//            }
-//        }
-//        if(p>=nums1.length) {
-//            return nums2[q];
-//        } else if(q>=nums2.length) {
-//            return nums1[p];
-//        } else {
-//            return Math.min(nums1[p],nums2[q]);
-//        }
-//    }
+
+    public static void main(String[] args) {
+        FindMedianSortedArrays fmsa = new FindMedianSortedArrays();
+        System.out.println(fmsa.findMedianSortedArrays(new int[]{1,3},new int[]{2,4}));
+    }
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int len1 = nums1.length;
+        int len2 = nums2.length;
+        int total = len1 + len2;
+        if(total % 2==0){
+            System.out.println("k:"+(total/2)+","+(total/2+1));
+            return (findKth(nums1,nums2,total/2)+findKth(nums1,nums2,total/2+1))/2.0;
+        } else {
+            System.out.println("k:"+total/2+1);
+            return findKth(nums1,nums2,total/2+1);
+        }
+    }
+    private int findKth(int[] nums1, int[] nums2, int k){
+        int p = 0, q = 0;//p表示基于nums1[],q表示基于nums2[]
+        for(int i = 0; i < k - 1; i++){
+            if(p>=nums1.length && q<nums2.length){//nums1[]已经遍历结束
+                q++;
+            } else if(q>=nums2.length && p<nums1.length){//nums2[]已经遍历结束
+                p++;
+            } else if(nums1[p]>nums2[q]){
+                q++;
+            } else {
+                p++;
+            }
+        }
+        System.out.println("p;"+p+",q:"+q);
+        if(p>=nums1.length) {
+            System.out.println("nums2[q]:"+nums2[q]);
+            return nums2[q];
+        } else if(q>=nums2.length) {
+            System.out.println("nums1[p]:"+nums1[p]);
+            return nums1[p];
+        } else {//nums1[]和nums2[]都没有越界,此时需要比较
+            System.out.println("nums1[p]:"+nums1[p]+",nums2[q]:"+nums2[q]);
+            return Math.min(nums1[p],nums2[q]);//new int[]{1,3},new int[]{2,4},此时需要比较2,3中较小的数
+        }
+    }
 
     /***
      *
@@ -62,35 +73,35 @@ public class FindMedianSortedArrays {
      每次递归不仅要更新数组起始位置（起始位置之前的元素被抛弃），也要更新k的大小（扣除被抛弃的元素）
      */
 
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length, n = nums2.length;
-        int k = (m + n) / 2;
-        if((m+n)%2==0){
-            return (findKth(nums1,nums2,0,0,m,n,k)+findKth(nums1,nums2,0,0,m,n,k+1))/2;
-        }   else {
-            return findKth(nums1,nums2,0,0,m,n,k+1);
-        }
-
-    }
-
-    private double findKth(int[] arr1, int[] arr2, int start1, int start2, int len1, int len2, int k){
-        if(len1>len2){
-            return findKth(arr2,arr1,start2,start1,len2,len1,k);
-        }
-        if(len1==0){
-            return arr2[start2 + k - 1];
-        }
-        if(k==1){
-            return Math.min(arr1[start1],arr2[start2]);
-        }
-        int p1 = Math.min(k/2,len1) ;
-        int p2 = k - p1;
-        if(arr1[start1 + p1-1]<arr2[start2 + p2-1]){
-            return findKth(arr1,arr2,start1 + p1,start2,len1-p1,len2,k-p1);
-        } else if(arr1[start1 + p1-1]>arr2[start2 + p2-1]){
-            return findKth(arr1,arr2,start1,start2 + p2,len1,len2-p2,k-p2);
-        } else {
-            return arr1[start1 + p1-1];
-        }
-    }
+//    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+//        int m = nums1.length, n = nums2.length;
+//        int k = (m + n) / 2;
+//        if((m+n)%2==0){
+//            return (findKth(nums1,nums2,0,0,m,n,k)+findKth(nums1,nums2,0,0,m,n,k+1))/2;
+//        }   else {
+//            return findKth(nums1,nums2,0,0,m,n,k+1);
+//        }
+//
+//    }
+//
+//    private double findKth(int[] arr1, int[] arr2, int start1, int start2, int len1, int len2, int k){
+//        if(len1>len2){
+//            return findKth(arr2,arr1,start2,start1,len2,len1,k);
+//        }
+//        if(len1==0){
+//            return arr2[start2 + k - 1];
+//        }
+//        if(k==1){
+//            return Math.min(arr1[start1],arr2[start2]);
+//        }
+//        int p1 = Math.min(k/2,len1) ;
+//        int p2 = k - p1;
+//        if(arr1[start1 + p1-1]<arr2[start2 + p2-1]){
+//            return findKth(arr1,arr2,start1 + p1,start2,len1-p1,len2,k-p1);
+//        } else if(arr1[start1 + p1-1]>arr2[start2 + p2-1]){
+//            return findKth(arr1,arr2,start1,start2 + p2,len1,len2-p2,k-p2);
+//        } else {
+//            return arr1[start1 + p1-1];
+//        }
+//    }
 }

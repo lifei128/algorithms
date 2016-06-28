@@ -2,6 +2,8 @@ package com.lifeibigdata.algorithms.graph.liantongfenliang;
 
 /**
  * Created by leofei.li on 2016/5/21.
+ *
+ * å¹¶æŸ¥é›†
  */
 public class CUnionFindSet {
     static int m_mN;
@@ -26,7 +28,7 @@ public class CUnionFindSet {
         while(root != m_pParent[root]){
             root = m_pParent[root];
         }
-        //Ñ¹Ëõ
+        //Ñ¹ï¿½ï¿½
         int t = i;
         int p;
         while (t != root){
@@ -37,7 +39,7 @@ public class CUnionFindSet {
         return root;
     }
 
-    public CUnionFindSet(int n) {//×Ô¼º¶¼ÊÇ×Ô¼ºµÄ¸¸½Úµã
+    public CUnionFindSet(int n) {//ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½Ä¸ï¿½ï¿½Úµï¿½
         m_mN = n;
         m_pParent = new int[m_mN];
         for (int i = 0; i < m_mN; i++){

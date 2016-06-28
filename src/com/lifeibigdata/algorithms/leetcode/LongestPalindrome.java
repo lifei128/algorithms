@@ -23,63 +23,64 @@ public class LongestPalindrome {
     // Transform S into T.
     // For example, S = "abba", T = "^#a#b#b#a#$".
     // ^ and $ signs are sentinels appended to each end to avoid bounds checking
-    String preProcess(String s) {
-        int n = s.length();
-        if (n == 0) return "^$";
-
-        String ret = "^";
-        for (int i = 0; i < n; i++)
-        {
-            ret += "#" + s.substring(i, i + 1);
-        }
-
-        ret += "#$";
-        return ret;
-    }
-    public String longestPalindrome(String s) {
-        String T = preProcess(s);
-        int length = T.length();
-        int[] p = new int[length];
-        int C = 0, R = 0;
-
-        for (int i = 1; i < length - 1; i++)
-        {
-            int i_mirror = C - (i - C);
-            int diff = R - i;
-            if (diff >= 0)//当前i在C和R之间，可以利用回文的对称属性
-            {
-                if (p[i_mirror] < diff)//i的对称点的回文长度在C的大回文范围内部
-                { p[i] = p[i_mirror]; }
-                else
-                {
-                    p[i] = diff;
-                    //i处的回文可能超出C的大回文范围了
-                    while (T.charAt(i + p[i] + 1) == T.charAt(i - p[i] - 1))
-                    { p[i]++; }
-                    C = i;
-                    R = i + p[i];
-                }
-            }
-            else
-            {
-                p[i] = 0;
-                while (T.charAt(i + p[i] + 1) == T.charAt(i - p[i] - 1))
-                { p[i]++; }
-                C = i;
-                R = i + p[i];
-            }
-        }
-
-        int maxLen = 0;
-        int centerIndex = 0;
-        for (int i = 1; i < length - 1; i++) {
-            if (p[i] > maxLen) {
-                maxLen = p[i];
-                centerIndex = i;
-            }
-        }
-        return s.substring((centerIndex - 1 - maxLen) / 2, (centerIndex - 1 - maxLen) / 2 + maxLen);
-    }
+//    String preProcess(String s) {
+//        int n = s.length();
+//        if (n == 0) return "^$";
+//
+//        String ret = "^";
+//        for (int i = 0; i < n; i++)
+//        {
+//            ret += "#" + s.substring(i, i + 1);
+//        }
+//
+//        ret += "#$";
+//        return ret;
+//    }
+//    public String longestPalindrome(String s) {
+//        String T = preProcess(s);
+//        System.out.println(T);
+//        int length = T.length();
+//        int[] p = new int[length];
+//        int C = 0, R = 0;
+//
+//        for (int i = 1; i < length - 1; i++)
+//        {
+//            int i_mirror = C - (i - C);
+//            int diff = R - i;
+//            if (diff >= 0)//当前i在C和R之间，可以利用回文的对称属性
+//            {
+//                if (p[i_mirror] < diff)//i的对称点的回文长度在C的大回文范围内部
+//                { p[i] = p[i_mirror]; }
+//                else
+//                {
+//                    p[i] = diff;
+//                    //i处的回文可能超出C的大回文范围了
+//                    while (T.charAt(i + p[i] + 1) == T.charAt(i - p[i] - 1))
+//                    { p[i]++; }
+//                    C = i;
+//                    R = i + p[i];
+//                }
+//            }
+//            else
+//            {
+//                p[i] = 0;
+//                while (T.charAt(i + p[i] + 1) == T.charAt(i - p[i] - 1))
+//                { p[i]++; }
+//                C = i;
+//                R = i + p[i];
+//            }
+//        }
+//
+//        int maxLen = 0;
+//        int centerIndex = 0;
+//        for (int i = 1; i < length - 1; i++) {
+//            if (p[i] > maxLen) {
+//                maxLen = p[i];
+//                centerIndex = i;
+//            }
+//        }
+//        return s.substring((centerIndex - 1 - maxLen) / 2, (centerIndex - 1 - maxLen) / 2 + maxLen);
+//    }
 
     /***
      * 3.中心扩展法
@@ -139,61 +140,61 @@ public class LongestPalindrome {
      b. i +1 = (j - 1) -1，即回文长度为2时，dp[ i ][ i + 1] = （s[ i ] == s[ i + 1]）。
      有了以上分析就可以写出代码了。需要注意的是动态规划需要额外的O(n2)的空间。
      */
-//    public String longestPalindrome(String s) {
-//        if (s == null)
-//            return null;
-//        if(s.length() <=1)
-//            return s;
-//        int maxLen = 0;
-//        String longestStr = null;
-//        int length = s.length();
-//        int[][] table = new int[length][length];
-//        //every single letter is palindrome
-//        for (int i = 0; i < length; i++) {
-//            table[i][i] = 1;
-//        }
-//        printTable(table);
-//        //e.g. bcba
-//        //two consecutive(连续) same letters are palindrome
-//        for (int i = 0; i <= length - 2; i++) {                 //注意 i<= length - 2,是因为循环里面有用到s.charAt(i+1),避免数组越界
-//            //System.out.println("i="+i+"  "+s.charAt(i));
-//            //System.out.println("i="+i+"  "+s.charAt(i+1));
-//            if (s.charAt(i) == s.charAt(i + 1)){
-//                table[i][i + 1] = 1;
-//                longestStr = s.substring(i, i + 2);
-//            }
-//        }
-//        System.out.println("longestStr:"+longestStr);
-//        printTable(table);
-//        //condition for calculate whole table
-//        for (int l = 3; l <= length; l++) {                         //l表示区间的长度从3开始
-//            for (int i = 0; i <= length-l; i++) {
-//                int j = i + l - 1;
-//                if (s.charAt(i) == s.charAt(j)) {
-//                    table[i][j] = table[i + 1][j - 1];
-//                    if (table[i][j] == 1 && l > maxLen)             //比较maxLen
-//                        longestStr = s.substring(i, j + 1);
-//
-//                } else {
-//                    table[i][j] = 0;
-//                }
-////                printTable(table);
-//            }
-//        }
-//
-//        return longestStr;
-//    }
-//
-//
-//    public static void printTable(int[][] x){
-//        for(int [] y : x){
-//            for(int z: y){
-//                System.out.print(z + " ");
-//            }
-//            System.out.println();
-//        }
-//        System.out.println("------");
-//    }
+    public String longestPalindrome(String s) {
+        if (s == null)
+            return null;
+        if(s.length() <=1)
+            return s;
+        int maxLen = 0;
+        String longestStr = null;
+        int length = s.length();
+        int[][] table = new int[length][length];
+        //every single letter is palindrome
+        for (int i = 0; i < length; i++) {
+            table[i][i] = 1;
+        }
+        printTable(table);
+        //e.g. bcba
+        //two consecutive(连续) same letters are palindrome
+        for (int i = 0; i <= length - 2; i++) {                 //注意 i<= length - 2,是因为循环里面有用到s.charAt(i+1),避免数组越界
+            //System.out.println("i="+i+"  "+s.charAt(i));
+            //System.out.println("i="+i+"  "+s.charAt(i+1));
+            if (s.charAt(i) == s.charAt(i + 1)){
+                table[i][i + 1] = 1;
+                longestStr = s.substring(i, i + 2);
+            }
+        }
+        System.out.println("longestStr:"+longestStr);
+        printTable(table);
+        //condition for calculate whole table
+        for (int l = 3; l <= length; l++) {                         //l表示区间的长度从3开始
+            for (int i = 0; i <= length-l; i++) {
+                int j = i + l - 1;
+                if (s.charAt(i) == s.charAt(j)) {
+                    table[i][j] = table[i + 1][j - 1];
+                    if (table[i][j] == 1 && l > maxLen)             //比较maxLen
+                        longestStr = s.substring(i, j + 1);
+
+                } else {
+                    table[i][j] = 0;
+                }
+//                printTable(table);
+            }
+        }
+
+        return longestStr;
+    }
+
+
+    public static void printTable(int[][] x){
+        for(int [] y : x){
+            for(int z: y){
+                System.out.print(z + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("------");
+    }
     /***
      * 1.两侧比较法
      以abba这样一个字符串为例来看，abba中，一共有偶数个字，第1位=倒数第1位，第2位=倒数第2位......第N位=倒数第N位
@@ -201,6 +202,7 @@ public class LongestPalindrome {
      所以，假设找到一个长度为len1的子串后，我们接下去测试它是否满足，第1位=倒数第1位，第2位=倒数第2位......第N位=倒数第N位，也就是说，去测试从头尾到中点，字符是否逐一对应相等。
      *
      *
+     * TL
      */
 //    public String longestPalindrome(String s) {
 //        int max = 0;

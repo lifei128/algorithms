@@ -53,27 +53,33 @@ public class BinaryTreeSummary {
 
         r1.left = r2;
         r1.right = r3;
+
         r2.left = r4;
         r2.right = r5;
+
         r3.right = r6;
 
+        //求节点数 高度
 //      System.out.println(getNodeNumRec(r1));
 //      System.out.println(getNodeNum(r1));
 //      System.out.println(getDepthRec(r1));
 //      System.out.println(getDepth(r1));
 
-//      preorderTraversalRec(r1);
+        //前中后遍历
+//      preorderTraversalRec(r1);  //1 2 4 5 3 6
 //      System.out.println();
 //      preorderTraversal(r1);
 //      System.out.println();
-//      inorderTraversalRec(r1);
+//      inorderTraversalRec(r1);      //4 2 5 1 3 6
 //      System.out.println();
 //      inorderTraversal(r1);
 //      System.out.println();
-//      postorderTraversalRec(r1);
+//      postorderTraversalRec(r1);        //4 5 2 6 3 1
 //      System.out.println();
 //      postorderTraversal(r1);
 //      System.out.println();
+
+        //层序遍历
 //      levelTraversal(r1);
 //      System.out.println();
 //      levelTraversalRec(r1);
@@ -128,8 +134,8 @@ public class BinaryTreeSummary {
 //      TreeNode mirrorRoot = mirrorCopy(r1);
 //      inorderTraversal(mirrorRoot);
 
-        System.out.println(isCompleteBinaryTree(r1));
-        System.out.println(isCompleteBinaryTreeRec(r1));
+//        System.out.println(isCompleteBinaryTree(r1));
+//        System.out.println(isCompleteBinaryTreeRec(r1));
 
     }
 
@@ -153,7 +159,7 @@ public class BinaryTreeSummary {
         if (root == null) {
             return 0;
         } else {
-            return getNodeNumRec(root.left) + getNodeNumRec(root.right) + 1;
+            return getNodeNumRec(root.left) + getNodeNumRec(root.right) + 1;  //左 右节点加上主节点1为总数
         }
     }
 
@@ -196,7 +202,7 @@ public class BinaryTreeSummary {
 
         int leftDepth = getDepthRec(root.left);
         int rightDepth = getDepthRec(root.right);
-        return Math.max(leftDepth, rightDepth) + 1;
+        return Math.max(leftDepth, rightDepth) + 1;   //tongya
     }
 
     /**
@@ -227,8 +233,8 @@ public class BinaryTreeSummary {
                 nextLevelNodes++;
             }
 
-            if(currentLevelNodes == 0){ // 说明已经遍历完当前层的所有节点
-                depth++;                       // 增加高度
+            if(currentLevelNodes == 0){ // 说明已经遍历完当前层的所有节点      ***********该判断是层级的界限,
+                depth++;                       // 增加高度                  ******增加深度
                 currentLevelNodes = nextLevelNodes;     // 初始化下一层的遍历
                 nextLevelNodes = 0;
             }
@@ -301,7 +307,7 @@ public class BinaryTreeSummary {
      * 还有一种方法能不用递归和栈，基于线索二叉树的方法，较麻烦以后补上
      * http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
      */
-    public static void inorderTraversal(TreeNode root){
+    public static void inorderTraversal(TreeNode root){   //中序 是左中右  栈中首先存的是一路靠左的节点,到达最底部之后,取右边的,放到栈中,一旦某个环节结束,就跳出返到双亲节点
         if(root == null){
             return;
         }
@@ -318,10 +324,10 @@ public class BinaryTreeSummary {
                 break;
             }
 
-            // 因为此时已经没有左孩子了，所以输出栈顶元素
-            cur = stack.pop();
+            // 因为此时已经没有左孩子了，所以输出栈顶元素  //left root
+            cur = stack.pop();  //root
             System.out.print(cur.val + " ");
-            cur = cur.right;    // 准备处理右子树
+            cur = cur.right;    //处理最左孩子的右子树
         }
     }
 
