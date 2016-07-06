@@ -7,7 +7,7 @@ public class Utils {
 
     static void print(ListNode node){
         while (node != null){
-            System.out.print(node.val + "\t");
+            System.out.print(node.val + "->");
             if (node.next != null) {
                 node = node.next;
             } else {

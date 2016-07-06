@@ -17,9 +17,9 @@ public class ContainerWithMostWater {
         int j = n-1;
         while(i<j)
         {
-            int temp = (j - i)*(height[i]>height[j]?height[j]:height[i]);
+            int temp = (j - i)*(height[i]>height[j]?height[j]:height[i]);//每次面积
 
-            if(height[i] < height[j])
+            if(height[i] < height[j])  //木板低的一方移动
             {
                 i++;
             }
