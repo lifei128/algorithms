@@ -16,7 +16,6 @@ public class Permutation2 {
                 char temp = buf[start];// 交换数组第一个元素与后续的元素
                 buf[start] = buf[i];
                 buf[i] = temp;
-                System.out.println(buf[start]+":"+buf[i]);
                 permutation(buf, start + 1, end);// 后续元素递归全排列
 
                 temp = buf[start];// 将交换后的数组还原
@@ -27,7 +26,7 @@ public class Permutation2 {
     }
 
     public static void main(String[] args) {
-        char[] buf = new char[] { 'a', 'b', 'c','d' };
+        char[] buf = new char[] { 'a', 'b', 'b','d' };
         permutation(buf, 0, 3);
     }
 

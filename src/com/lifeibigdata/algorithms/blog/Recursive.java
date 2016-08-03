@@ -1,6 +1,9 @@
 package com.lifeibigdata.algorithms.blog;
 
 import com.lifeibigdata.algorithms.leetcode.TreeNode;
+
+import java.util.List;
+
 public class Recursive {
 
     public static void main(String[] args) {
@@ -9,10 +12,13 @@ public class Recursive {
 //        perm(new int[]{1,2,3},0,2);
 //        System.out.println(fib(2));
 //        System.out.println(fib_i(1,1,7));
-        System.out.println(factorial_tail(3,1,1));
+//        System.out.println(factorial_tail(3,1,1));
 //        System.out.println(is_palindereme(""));
 //        System.out.println(binary_search(new int[]{1,2,3,4,5},4));
 //        System.out.println(binSearch(new int[]{1,2,3,4,5},0,4,6));
+        int[] arr = new int[]{1, -2, 3, 10, -4, 7, 2, -5};
+//        maxSubArraySum3(arr);
+//        System.out.println(getMax(arr));
     }
 
     /**
@@ -322,6 +328,13 @@ public class Recursive {
     /**
      * 走楼梯问题
      */
+    /**
+     * 在二元树中找出和为某一值的所有路径
+     * http://z466459262.iteye.com/blog/1115316
+     *
+     */
+
+
 /**
  * 纯递归问题的难易主要纠结于一些条件表达式的构造以及初值的设置（上面的为直接表达式值的设定）
  * 递归分两步，递和归

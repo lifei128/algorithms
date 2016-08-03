@@ -18,6 +18,13 @@ public class ShiftLeft {
 
     }
 
+    /**
+     * abcdef循环左移两位得到cdefab
+     *1 暴力求解,将左移字母的暂存临时变量中,将其他字母移位,再将临时变量,补充到移位后字符串的后面
+     *2 ba ihgfedc  -> cdefghiab
+     *
+     *
+     */
     private String shift(int digits) {
         if (digits == 0){
             return str;
@@ -50,11 +57,4 @@ public class ShiftLeft {
         return String.valueOf(temp);
     }
 
-    /**
-     * abcdef循环左移两位得到cdefab
-     *1 暴力求解,将左移字母的暂存临时变量中,将其他字母移位,再将临时变量,补充到移位后字符串的后面
-     *2 ba ihgfedc  -> cdefghiab
-     *
-     *
-     */
 }
