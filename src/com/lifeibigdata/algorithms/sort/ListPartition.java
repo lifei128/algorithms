@@ -23,7 +23,8 @@ public class ListPartition {
             pHead.pNext = p;
         }
         print(pHead);
-        partition(pHead,50);
+//        partition(pHead,50);//  将list分为50之前和50之后两部分
+        Reverse(pHead,1,2);//翻转链表的部分
         print(pHead);
     }
 
@@ -53,6 +54,26 @@ public class ListPartition {
         pHead.pNext = pLeftHead.pNext;
     }
 
+    static void Reverse(tagSNode pHead,int from,int to){
+        tagSNode pCur = pHead.pNext;
+        int i ;
+        for (i = 0; i < from - 1; i++) {
+            pHead = pCur;
+            pCur = pCur.pNext;
+        }
+        tagSNode pPre = pCur;
+        pCur = pCur.pNext;
+        to--;
+        tagSNode pNext;
+        for (; i < to; i++) {
+            pNext = pCur.pNext;
+            pCur.pNext = pHead.pNext;
+            pHead.pNext = pCur;
+            pPre.pNext = pNext;
+            pCur = pNext;
+        }
+
+    }
     private static void print(tagSNode pHead) {
         while (pHead != null){
             System.out.print(pHead.value+",");
