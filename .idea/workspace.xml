@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b12c4b3-e20a-480c-9f83-16f3b457cd72" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/CalcMaxGap.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/CalcMaxGap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/AddTwoNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TwoSum.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TwoSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/KMP.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/KMP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" />
     </list>
     <ignored path="algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,42 +30,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReversePart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReversePart.java">
+      <file leaf-file-name="TwoDiff.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/TwoDiff.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/BubbleSort.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListSummary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/LinkedListSummary.java">
+      <file leaf-file-name="Holland.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Holland.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseList2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReverseList2.java">
+      <file leaf-file-name="CalcMaxGap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/CalcMaxGap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cantor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Cantor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,51 +105,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListPartition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java">
+      <file leaf-file-name="ReverseList2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReverseList2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23880596">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.11258278">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DelDuplicateListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java">
+      <file leaf-file-name="ReversePart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReversePart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/WordBreak.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordBreak2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/WordBreak2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+              <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -245,38 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/SearchInsert.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/Permute.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/IsBalanceTree.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Recursive.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/getTreeWidth.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ReverseWords.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ShiftLeft.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/TreeNodeA.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/TreeWidth.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/BinaryTreeSummary.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/BasicTree.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/PreMid2Post.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/PostOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/PreOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/SearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LongSubstringK.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/AvlTree.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Root2Leaf.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/LIS.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/MaxProfit.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/IsTaskable" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/IsTaskable.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/MinPath.java" />
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/PathNumber.java" />
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/Nixudui.java" />
@@ -296,6 +271,38 @@
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java" />
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java" />
         <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/FindFirstSameNode.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Topologic.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ShortestPathNum.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/GetLongestParenthese.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ReversePolishNotation.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/GoChess.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Callatz.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Power.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString2.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestCommonSubsequence2.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestCommonSubsequence3.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Manacher.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/KMP.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/MinPeriod.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Model.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/LocalMaximum.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/TwoDiff.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/FindMin.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/FirstMissNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MaxSubarray.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MaxSequence.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MinSubarray.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Holland.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/CalcMaxGap.java" />
+        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Cantor.java" />
       </list>
     </option>
   </component>
@@ -315,9 +322,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -345,7 +352,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -441,8 +447,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,24 +487,23 @@
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="List&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/ListPartition.java&#10;Reverse&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/linearlist/ReversePart.java&#10;rever&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java&#10;list&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java&#10;part&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.sort.ListPartition&#10;add&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.AddTwoNumbers&#10;Huffman&#9;PSI&#9;JAVA://javax.imageio.plugins.jpeg.JPEGHuffmanTable&#10;me&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/MergeSort.java&#10;longestPalindrome&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.LongestPalindrome&#10;findMedianSortedArrays&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/FindMedianSortedArrays.java&#10;lengthOfLongestSubstring&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.LengthOfLongestSubstring&#10;nextPer&#9;PSI&#9;JAVA://javafx.collections.ListChangeBuilder#nextPermutation" />
-    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Reverse&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.linearlist.ReverseList&#10;MaxG&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.sort.CalcMaxGap&#10;twosum&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.TwoSum&#10;KMP&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.string.KMP&#10;Permutation2&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/string/Permutation2.java&#10;LongestCommonSubsequence&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.string.LongestCommonSubsequence&#10;ReverseSt&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.blog.LeftRotateString#reverseString&#10;top&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/google/TopologicalSort_Algorithm.java&#10;topo&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.google.TopologicalSort_Algorithm&#10;List&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/ListPartition.java&#10;rever&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java&#10;list&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java&#10;part&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.sort.ListPartition&#10;add&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.AddTwoNumbers&#10;Huffman&#9;PSI&#9;JAVA://javax.imageio.plugins.jpeg.JPEGHuffmanTable&#10;me&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/MergeSort.java&#10;longestPalindrome&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.LongestPalindrome&#10;findMedianSortedArrays&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/FindMedianSortedArrays.java&#10;lengthOfLongestSubstring&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.LengthOfLongestSubstring&#10;nextPer&#9;PSI&#9;JAVA://javafx.collections.ListChangeBuilder#nextPermutation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lifeibigdata.algorithms.sort" />
       <recent name="com.lifeibigdata.algorithms.string" />
+      <recent name="com.lifeibigdata.algorithms.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelDuplicateListNode">
-    <configuration default="false" name="ReverseListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Cantor">
+    <configuration default="false" name="MaxSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lifeibigdata.algorithms.leetcode.*" />
+          <option name="PATTERN" value="com.lifeibigdata.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.leetcode.ReverseListNode" />
+      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.array.MaxSubarray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -488,14 +516,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WordBreak2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MaxSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lifeibigdata.algorithms.sort.*" />
+          <option name="PATTERN" value="com.lifeibigdata.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.sort.WordBreak2" />
+      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.array.MaxSequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -508,14 +536,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Holland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lifeibigdata.algorithms.sort.*" />
+          <option name="PATTERN" value="com.lifeibigdata.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.sort.WordBreak" />
+      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.array.Holland" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -528,14 +556,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ListPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalcMaxGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lifeibigdata.algorithms.sort.*" />
+          <option name="PATTERN" value="com.lifeibigdata.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.sort.ListPartition" />
+      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.array.CalcMaxGap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -548,14 +576,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DelDuplicateListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Cantor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lifeibigdata.algorithms.sort.*" />
+          <option name="PATTERN" value="com.lifeibigdata.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.sort.DelDuplicateListNode" />
+      <option name="MAIN_CLASS_NAME" value="com.lifeibigdata.algorithms.array.Cantor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1028,19 +1056,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReverseListNode" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WordBreak2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordBreak" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ListPartition" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DelDuplicateListNode" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaxSubarray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MaxSequence" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Holland" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CalcMaxGap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Cantor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DelDuplicateListNode" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ListPartition" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReverseListNode" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WordBreak" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WordBreak2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Cantor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CalcMaxGap" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Holland" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaxSequence" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaxSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -1147,12 +1175,25 @@
       <workItem from="1474507984742" duration="1447000" />
       <workItem from="1474515894707" duration="3837000" />
       <workItem from="1474522100266" duration="4557000" />
-      <workItem from="1474533974317" duration="4283000" />
+      <workItem from="1474533974317" duration="6903000" />
+      <workItem from="1474592980060" duration="3000" />
+      <workItem from="1474595301628" duration="12791000" />
+      <workItem from="1474852933833" duration="121000" />
+      <workItem from="1474952485673" duration="1970000" />
+      <workItem from="1474959639410" duration="3515000" />
+      <workItem from="1475028367821" duration="11000" />
+      <workItem from="1475805461756" duration="10782000" />
+      <workItem from="1475904749213" duration="6638000" />
+      <workItem from="1475927358403" duration="6576000" />
+      <workItem from="1475967874241" duration="2976000" />
+      <workItem from="1476065307427" duration="650000" />
+      <workItem from="1476067765778" duration="8946000" />
+      <workItem from="1476107047111" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322503000" />
+    <option name="totallyTimeSpent" value="380633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1164,33 +1205,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25511596" sideWeight="0.46435452" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20595855" sideWeight="0.38010657" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30891088" sideWeight="0.47495183" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3853755" sideWeight="0.61989343" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38514853" sideWeight="0.61989343" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20500532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24759285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24356435" sideWeight="0.6050096" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33782384" sideWeight="0.6050096" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25494277" sideWeight="0.46435452" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46478873" sideWeight="0.47495183" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1381,6 +1422,42 @@
           <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/FindFirstSameNode.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/FindFirstSameNode.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/FindFirstSameNode.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Manacher.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Cantor.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Recursive.java</url>
           <line>1</line>
@@ -1394,7 +1471,7 @@
           <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="129" />
+      <option name="time" value="139" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1403,46 +1480,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/CtreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/LinkedListSummary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="24" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/IsBalanceTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/MaxLenInBinTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/QueueImplementByTwoStacks.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/FindFirstSameNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/PathNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/TopologicalSort_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="130" selection-start-line="68" selection-start-column="130" selection-end-line="68" selection-end-column="130" />
         </state>
       </provider>
     </entry>
@@ -1456,173 +1541,283 @@
     <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/PreOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/SearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/QueueImplementByTwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ShortestPathNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/GetLongestParenthese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ReversePolishNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ABCgroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Topologic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Callatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/GoChess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/MatrixMulti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LeftRotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestCommonSubsequence2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestCommonSubsequence3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ReverseWords2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#165#166#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/AvlTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+          <caret line="14" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LongSubstringK.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Manacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/MinPeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/FirstMissNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/FindMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/LocalMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MaxSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MaxSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MinSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Root2Leaf.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4291262">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39805827">
-          <caret line="175" column="4" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/MaxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6368932">
-          <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/IsTaskable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/MinPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/PathNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2666667">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/Gantt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46666667">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/YoungTableaus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuictSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46666667">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/Nixudui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033333335">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/InterIace.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/TwoDiff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="60.554512">
-          <caret line="1966" column="0" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/CalcMaxGap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Holland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1729324">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/javax/imageio/plugins/jpeg/JPEGHuffmanTable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/CalcMaxGap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5432331">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1630,82 +1825,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/HuffmanTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Catalan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/CUnionFindSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/MousePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Sum100.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/Cantor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1474500256000" expanded="true" signature="2064:2280" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/CheckPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15726496">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,46 +1843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReverseList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/WordBreak2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/WordBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1765,26 +1855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/LinkedListSummary.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ReverseList2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/ListPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23880596">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.11258278">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>

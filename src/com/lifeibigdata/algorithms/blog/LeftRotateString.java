@@ -46,7 +46,7 @@ public class LeftRotateString {
         if (begin >= end) {
             return;
         }
-        for (int i = begin, j = end; i < j; i++, j--) {
+        for (int i = begin, j = end; i < j; i++, j--) {//TODO
             char tmp = letters[i];
             letters[i] = letters[j];
             letters[j] = tmp;

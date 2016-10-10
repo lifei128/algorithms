@@ -1,4 +1,4 @@
-package com.lifeibigdata.algorithms.sort;
+package com.lifeibigdata.algorithms.array;
 
 /**
  * Created by lifei on 16/9/19.
