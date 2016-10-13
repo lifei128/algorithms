@@ -1,4 +1,4 @@
-package com.lifeibigdata.algorithms.sort;
+package com.lifeibigdata.algorithms.linearlist;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.lifeibigdata.algorithms.linearlist;
+package com.lifeibigdata.algorithms.tree;
 
 /**
  * Created by lifei on 16/5/26.
@@ -21,6 +21,7 @@ import java.util.Stack;
  * 3. 前序遍历，中序遍历，后序遍历: preorderTraversalRec, preorderTraversal, inorderTraversalRec, postorderTraversalRec
  * (https://en.wikipedia.org/wiki/Tree_traversal#Pre-order_2)
  * 4.分层遍历二叉树（按层次从上往下，从左往右）: levelTraversal, levelTraversalRec（递归解法！）
+ *
  * 5. 将二叉查找树变为有序的双向链表: convertBST2DLLRec, convertBST2DLL
  * 6. 求二叉树第K层的节点个数：getNodeNumKthLevelRec, getNodeNumKthLevel
  * 7. 求二叉树中叶子节点的个数：getNodeNumLeafRec, getNodeNumLeaf
@@ -89,7 +90,6 @@ public class BinaryTreeSummary {
 //      System.out.println();
 //      postorderTraversal(r1);
 //      System.out.println();
-
         //层序遍历
 //      levelTraversal(r1);
 //      System.out.println();
@@ -120,7 +120,7 @@ public class BinaryTreeSummary {
       }
 
 
-//      TreeNode tmp = convertBST2DLL(r1);
+//      TreeNode tmp = convertBST2DLL(r1);//这是单项链表
 //      while(true){
 //          if(tmp == null){
 //              break;
@@ -130,6 +130,17 @@ public class BinaryTreeSummary {
 //              break;
 //          }
 //          tmp = tmp.right;
+//      }
+//      System.out.println();
+//      while(true){
+//          if(tmp == null){
+//              break;
+//          }
+//          System.out.print(tmp.val + " ");
+//          if(tmp.left == null){
+//              break;
+//          }
+//          tmp = tmp.left;
 //      }
 
 //      System.out.println(getNodeNumKthLevelRec(r1, 2));
@@ -217,7 +228,7 @@ public class BinaryTreeSummary {
     }
 
     /**
-     * 求二叉树的深度（高度） 迭代解法： O(n)
+     * 求二叉树的深度（高度） 迭代解法： O(n)  基于层序遍历
      * 基本思想同LevelOrderTraversal，还是用一个Queue
      */
     public static int getDepth(TreeNode root) {
@@ -261,13 +272,13 @@ public class BinaryTreeSummary {
      * （1）如果二叉树为空，空操作
      * （2）如果二叉树不为空，访问根节点，前序遍历左子树，前序遍历右子树
      */
-    public static void preorderTraversalRec(TreeNode root) {
+    public static void preorderTraversalRec(TreeNode root) {//第一次接收到工作,准备分发
         if (root == null) {
             return;
         }
         System.out.print(root.val + " ");
-        preorderTraversalRec(root.left);
-        preorderTraversalRec(root.right);
+        preorderTraversalRec(root.left);//这里的preorderTraversalRec更像是助手,帮助工作
+        preorderTraversalRec(root.right);//同上
     }
 
     /**
