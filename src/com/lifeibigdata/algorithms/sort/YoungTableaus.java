@@ -117,6 +117,49 @@ public class YoungTableaus {
         }
         return false;
     }
+
+
+    boolean find2(int x){
+        int m = m_pData.length,n = m_pData[0].length;
+        return find2(m_pData,0,0,m - 1,n - 1,x);
+    }
+
+    private boolean find(int[][] a, int x1, int y1, int x2, int y2, int target) {
+        if (x1 > x2 || y1 > y2)
+            return false;
+        int midx = (x1 + x2) >> 1;
+        int midy = (y1 + y2) >> 1;
+        if (a[midx][midy] == target)
+            return true;
+        return (target < a[midx][midy])?
+                (find(a,x1,y1,midx - 1,y2,target) || find(a,midx,y1,x2,midy - 1,target)):
+                (find(a,x1,midy + 1,x2,y2,target) || find(a,midx + 1,y1,x2,midy,target));
+    }
+
+    private boolean find2(int[][] a, int x1, int y1, int x2, int y2, int target) {
+        if (x1 > x2 || y1 > y2)
+            return false;
+        int midx = (x1 + x2) >> 1;
+        int indy = help(a[midx],y1,y2,target);
+        if (indy >= y1 && a[midx][indy] == target)
+            return true;
+        return find2(a,x1,indy + 1,midx - 1,y2,target) ||
+                find2(a,midx + 1,y1,x2,indy,target);
+    }
+
+    private int help(int[] a, int y1, int y2, int target) {//last <= target
+        int left = y1,right = y2;
+        while (left <= right){
+            int mid = (right + left) >> 1;
+            if (a[mid] <= target){
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left - 1;
+    }
+
     void delete(int row,int col){
         int r = row;
         int c = col;
@@ -149,7 +192,7 @@ public class YoungTableaus {
         yt.print();
         yt.delete(0,0);
         yt.print();
-//        System.out.println(yt.find(1));
+        System.out.println(yt.find2(41));
     }
 
 }

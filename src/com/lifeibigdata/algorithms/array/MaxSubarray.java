@@ -8,7 +8,7 @@ public class MaxSubarray {
     static int to;
     public static void main(String[] args) {
         int a[] = {1,-2,3,10,-4,7,2,-5};
-        int m = maxSubarray2(a);
+        int m = maxSubarray5(a);
         System.out.println(m+"---"+from+"---"+to);
     }
 
@@ -51,5 +51,47 @@ public class MaxSubarray {
             }
         }
         return result;
+    }
+
+    private static int maxSubarray3(int[] a,int n) {
+        if (n == 1)
+            return a[0];
+        int mid = n >> 1;
+        //0...mid - 1   mid...n - 1
+        int answer = Math.max(maxSubarray3(a,mid),maxSubarray3(a,n - mid));
+        int now = a[mid - 1],may = now;
+        for (int i = mid - 2; i >=0 ; --i) {
+            may = Math.max(may,now+=a[i]);
+        }
+        now = may;
+        for (int i = mid; i < n; ++i) {
+            may = Math.max(may,now+=a[i]);
+        }
+        return Math.max(answer,may);
+    }
+
+
+    private static int maxSubarray4(int[] a) {
+        int[] dp = new int[a.length];
+        dp[0] = a[0];
+        int answer = dp[0];
+        for (int i = 1; i < a.length; i++) {
+            dp[i] = Math.max(dp[i - 1] + a[i],a[i]);
+            answer = Math.max(answer,dp[i]);
+        }
+        return answer;
+    }
+
+
+    private static int maxSubarray5(int[] a) {
+        int sum = a[0];
+        int minSum = Math.min(0,sum);
+        int answer = a[0];
+        for (int i = 1; i < a.length; i++) {
+            sum += a[i];
+            answer = Math.max(answer,sum - minSum);
+            minSum = Math.min(minSum,sum);
+        }
+        return answer;
     }
 }

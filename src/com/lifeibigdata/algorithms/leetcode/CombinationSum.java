@@ -13,39 +13,22 @@ public class CombinationSum {
 
         int[] can = new int[]{5,3,2,1};
         CombinationSum cs = new CombinationSum();
-        cs.combinationSum(can,6);
-        for (List<Integer> list:ans) {
+//        cs.combinationSum(can,6);
+//        for (List<Integer> list:ans) {
+//            for (int i:list) {
+//                System.out.print(i+",");
+//            }
+//            System.out.println();
+//        }
+
+        cs.combinationSum2(can,6);
+        for (List<Integer> list:sums) {
             for (int i:list) {
                 System.out.print(i+",");
             }
             System.out.println();
         }
     }
-
-//    static List<List<Integer>> result;
-//    List<Integer> solu;
-//    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-//        result = new ArrayList<>();
-//        solu = new ArrayList<>();
-//        Arrays.sort(candidates);
-//        getCombination(candidates, target, 0, 0);
-//        return result;
-//    }
-//    public void getCombination(int[] candidates, int target, int sum, int level){
-//        if(sum>target) return;
-//        if(sum==target){
-//            result.add(new ArrayList<>(solu));
-//            return;
-//        }
-//        for(int i=level;i<candidates.length;i++){
-//            sum+=candidates[i];
-//            solu.add(candidates[i]);
-//            getCombination(candidates, target, sum, i);
-//            solu.remove(solu.size()-1);
-//            sum-=candidates[i];
-//        }
-//    }
-
 
     static List<List<Integer>> ans = new ArrayList<List<Integer>>();//声明全局变量
     int[] cans = {};
@@ -86,4 +69,31 @@ public class CombinationSum {
 
      3,3,
      */
+
+
+    //时间复杂度O(n!) 空间复杂度O(n)
+    public static List<List<Integer>> sums = new ArrayList<List<Integer>>();
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        combinationSum2(candidates, 0, new ArrayList<Integer>(), target);
+        return sums;
+    }
+
+    public void combinationSum2(int[] candidates, int begin, List<Integer> sum, int target) {
+        if (target == 0) {
+            sums.add(sum);
+            return;
+        }
+        int pre = -1;
+        for (int i = begin; i < candidates.length && candidates[i] <= target; i++) {
+            //因为已经排序过,所以如果当前数和前一个数相同， 则此次循环直接跳过
+            if(pre == candidates[i]) {//TODO
+                continue;
+            }
+            List<Integer> list = new ArrayList<Integer>(sum);
+            pre = candidates[i];
+            list.add(candidates[i]);
+            combinationSum2(candidates, i + 1, list, target - candidates[i]);
+        }
+    }
 }
