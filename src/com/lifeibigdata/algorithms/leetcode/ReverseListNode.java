@@ -18,24 +18,39 @@ public class ReverseListNode {
         Utils.print(head);
         ReverseListNode rln = new ReverseListNode();
         System.out.println("打印链表反转后：");
-        ListNode newHead = rln.reverse3(head);//TODO 3种方式
+        ListNode newHead = rln.reverse(head);//TODO 3种方式
         Utils.print(newHead);
-        System.out.println("===========create==============");
-        ListNode cln = createList(new int[]{1,2,3,4,5});
-        Utils.print(cln);
+//        System.out.println("===========create==============");
+//        ListNode cln = createList(new int[]{1,2,3,4,5});
+//        Utils.print(cln);
     }
 
 
-
-
+    /**
+     * 第一轮
+     * 3.next (reverse) revHead 4
+     * 3.next.next=4.next(赋值前为null)   3
+     * 3.next -> null
+     * 4 3 null
+     *
+     *第二轮
+     * 2.next.next=3.next(赋值前为null)   2
+     * 2.next -> null
+     * 4 3 2 null
+     *
+     *
+     *
+     * @param head
+     * @return
+     */
     ListNode reverse(ListNode head){
-        if (null == head || null == head.next){
+        if (null == head || null == head.next){//TODO 如果是终节点,就会将终结点返回,所以revHead就是终结点
             return head;
         }
         ListNode revHead = reverse(head.next);
-        head.next.next = head;  //注意这个地方是两个next
-        System.out.println("----"+head.next.val+","+head.val+"----");
-        head.next = null;
+        System.out.println("----"+head.val+","+head.next.val+"----");
+        head.next.next = head;  //3.next.next=4.next   3
+        head.next = null;       //3.next=4  null
         return revHead;
     }
 
