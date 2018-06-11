@@ -7,6 +7,9 @@ public class TwoDiff {
     public static void main(String[] args) {
         int[] a = {0,3,7,9,11,14,16,17};
         twoDiff(a,7);
+        for (int x: a) {
+            System.out.print(x + " ");
+        }
     }
 
     private static void twoDiff(int[] a, int diff) {
@@ -17,7 +20,6 @@ public class TwoDiff {
             } else if (a[i] > a[j]+diff){
                 j++;
             } else {
-                System.out.println(a[j]+"---"+a[i]);
                 i++;
                 j++;
             }

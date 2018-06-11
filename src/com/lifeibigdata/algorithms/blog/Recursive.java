@@ -10,8 +10,8 @@ public class Recursive {
 //        System.out.println(factorial(3));
 //        tower(2,'A','B','C');
 //        perm(new int[]{1,2,3},0,2);
-//        System.out.println(fib(2));
-//        System.out.println(fib_i(1,1,7));
+//        System.out.println(fib(12));
+        System.out.println(fib_i(1,1,7));
 //        System.out.println(factorial_tail(3,1,1));
 //        System.out.println(is_palindereme(""));
 //        System.out.println(binary_search(new int[]{1,2,3,4,5},4));
@@ -120,7 +120,7 @@ public class Recursive {
      */
     static long fib(int n) {
         if (n == 0)
-            return 0;
+            return 1;
         if (n == 1)
             return 1;
         if (n > 1)
@@ -130,7 +130,7 @@ public class Recursive {
 
     static int fib_i(int a, int b , int n)
     {
-        if(n == 3)
+        if(n == 2)
             return a+b;
         else
             return fib_i(b, a+b, n-1);

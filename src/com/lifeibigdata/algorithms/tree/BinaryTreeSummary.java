@@ -21,7 +21,6 @@ import java.util.Stack;
  * 3. 前序遍历，中序遍历，后序遍历: preorderTraversalRec, preorderTraversal, inorderTraversalRec, postorderTraversalRec
  * (https://en.wikipedia.org/wiki/Tree_traversal#Pre-order_2)
  * 4.分层遍历二叉树（按层次从上往下，从左往右）: levelTraversal, levelTraversalRec（递归解法！）
- *
  * 5. 将二叉查找树变为有序的双向链表: convertBST2DLLRec, convertBST2DLL
  * 6. 求二叉树第K层的节点个数：getNodeNumKthLevelRec, getNodeNumKthLevel
  * 7. 求二叉树中叶子节点的个数：getNodeNumLeafRec, getNodeNumLeaf
@@ -41,125 +40,9 @@ public class BinaryTreeSummary {
                  1
                 / \
                2   3
-              / \  / \
-             4  5  6  7
-               /
-              8
-             /
-            9
+              / \   \
+             4  5   6
      */
-    public static void main(String[] args) {
-        TreeNode r1 = new TreeNode(1);
-        TreeNode r2 = new TreeNode(2);
-        TreeNode r3 = new TreeNode(3);
-        TreeNode r4 = new TreeNode(4);
-        TreeNode r5 = new TreeNode(5);
-        TreeNode r6 = new TreeNode(6);
-        TreeNode r7 = new TreeNode(7);
-        TreeNode r8 = new TreeNode(8);
-        TreeNode r9 = new TreeNode(9);
-
-        r1.left = r2;
-        r1.right = r3;
-
-        r2.left = r4;
-        r2.right = r5;
-
-        r3.right = r7;
-        r3.left = r6;
-
-        r5.left= r8;
-        r8.left = r9;
-
-        //求节点数 高度
-//      System.out.println(getNodeNumRec(r1));
-//      System.out.println(getNodeNum(r1));
-//      System.out.println(getDepthRec(r1));
-//      System.out.println(getDepth(r1));
-
-        //前中后遍历
-//      preorderTraversalRec(r1);     //1 ,2 4 5 ,3 6 7
-//      System.out.println();
-//      preorderTraversal(r1);
-//      System.out.println();
-//      inorderTraversalRec(r1);      //4 2 5 ,1, 6 3 7   |  4 2 9 8 5 1 6 3 7
-//      System.out.println();
-//      inorderTraversal(r1);
-//      System.out.println();
-//      postorderTraversalRec(r1);    //4 5 2 ,6 7 3 ,1     |  4 9 8 5 2 6 7 3 1
-//      System.out.println();
-//      postorderTraversal(r1);
-//      System.out.println();
-        //层序遍历
-//      levelTraversal(r1);
-//      System.out.println();
-//      levelTraversalRec(r1);
-//      System.out.println();
-
-      TreeNode tmp = convertBST2DLLRec(r1);
-      while(true){
-          if(tmp == null){
-              break;
-          }
-          System.out.print(tmp.val + " ");
-          if(tmp.right == null){
-              break;
-          }
-          tmp = tmp.right;
-      }
-      System.out.println();
-      while(true){
-          if(tmp == null){
-              break;
-          }
-          System.out.print(tmp.val + " ");
-          if(tmp.left == null){
-              break;
-          }
-          tmp = tmp.left;
-      }
-
-
-//      TreeNode tmp = convertBST2DLL(r1);//这是单项链表
-//      while(true){
-//          if(tmp == null){
-//              break;
-//          }
-//          System.out.print(tmp.val + " ");
-//          if(tmp.right == null){
-//              break;
-//          }
-//          tmp = tmp.right;
-//      }
-//      System.out.println();
-//      while(true){
-//          if(tmp == null){
-//              break;
-//          }
-//          System.out.print(tmp.val + " ");
-//          if(tmp.left == null){
-//              break;
-//          }
-//          tmp = tmp.left;
-//      }
-
-//      System.out.println(getNodeNumKthLevelRec(r1, 2));
-//      System.out.println(getNodeNumKthLevel(r1, 2));
-
-//      System.out.println(getNodeNumLeafRec(r1));
-//      System.out.println(getNodeNumLeaf(r1));
-
-//      System.out.println(isSame(r1, r1));
-//      inorderTraversal(r1);
-//      System.out.println();
-//      mirror(r1);
-//      TreeNode mirrorRoot = mirrorCopy(r1);
-//      inorderTraversal(mirrorRoot);
-
-//        System.out.println(isCompleteBinaryTree(r1));
-//        System.out.println(isCompleteBinaryTreeRec(r1));
-
-    }
 
     private static class TreeNode {
         int val;
@@ -198,7 +81,7 @@ public class BinaryTreeSummary {
         queue.add(root);
 
         while(!queue.isEmpty()){
-            TreeNode cur = queue.remove();      // 从队头位置移除
+            TreeNode cur = queue.remove();      //返回队头元素并移除
             if(cur.left != null){           // 如果有左孩子，加到队尾
                 queue.add(cur.left);
                 count++;
@@ -228,7 +111,7 @@ public class BinaryTreeSummary {
     }
 
     /**
-     * 求二叉树的深度（高度） 迭代解法： O(n)  基于层序遍历
+     * 求二叉树的深度（高度） 迭代解法： O(n)
      * 基本思想同LevelOrderTraversal，还是用一个Queue
      */
     public static int getDepth(TreeNode root) {
@@ -265,6 +148,39 @@ public class BinaryTreeSummary {
         return depth;
     }
 
+    /**
+     *
+     * @param root
+     * @return
+     */
+    public static int getWidth(TreeNode root) {
+        if(root == null){
+            return 0;
+        }
+        int maxWidth = 1;
+        LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+
+        while (true){
+            int len = queue.size();
+            if (len == 0)
+                break;
+            while (len > 0){
+                TreeNode t = queue.removeFirst();
+                len--;
+                if (t.left != null){
+                    queue.add(t.left);
+                }
+                if (t.right != null){
+                    queue.add(t.right);
+                }
+            }
+            maxWidth = Math.max(maxWidth,queue.size());
+        }
+
+        return maxWidth;
+    }
+
 
 
     /**
@@ -272,13 +188,13 @@ public class BinaryTreeSummary {
      * （1）如果二叉树为空，空操作
      * （2）如果二叉树不为空，访问根节点，前序遍历左子树，前序遍历右子树
      */
-    public static void preorderTraversalRec(TreeNode root) {//第一次接收到工作,准备分发
+    public static void preorderTraversalRec(TreeNode root) {
         if (root == null) {
             return;
         }
         System.out.print(root.val + " ");
-        preorderTraversalRec(root.left);//这里的preorderTraversalRec更像是助手,帮助工作
-        preorderTraversalRec(root.right);//同上
+        preorderTraversalRec(root.left);
+        preorderTraversalRec(root.right);
     }
 
     /**
@@ -378,14 +294,14 @@ public class BinaryTreeSummary {
         }
 
         Stack<TreeNode> s = new Stack<TreeNode>();      // 第一个stack用于添加node和它的左右孩子
-        Stack<TreeNode> output = new Stack<TreeNode>(); // 第二个stack用于翻转第一个stack输出
+        Stack<TreeNode> output = new Stack<TreeNode>();// 第二个stack用于翻转第一个stack输出
 
         s.push(root);
         while( !s.isEmpty() ){      // 确保所有元素都被翻转转移到第二个stack
             TreeNode cur = s.pop(); // 把栈顶元素添加到第二个stack
-//            System.out.print(cur.val+" ");   //1 3 7 6 2 5 8 9 4   | 遍历的时候先根,然后到右子数,再到左子树,翻转的时候output刚好相反
             output.push(cur);
-
+            // 关键点：要先压入左孩子，再压入右孩子，这样在出栈时会先弹出右孩子再弹出左孩子
+            //这一点和前序遍历相反
             if(cur.left != null){       // 把栈顶元素的左孩子和右孩子分别添加入第一个stack
                 s.push(cur.left);
             }
@@ -393,7 +309,7 @@ public class BinaryTreeSummary {
                 s.push(cur.right);
             }
         }
-//        System.out.println();
+
         while( !output.isEmpty() ){ // 遍历输出第二个stack，即为后序遍历
             System.out.print(output.pop().val + " ");
         }
@@ -456,7 +372,6 @@ public class BinaryTreeSummary {
 
     /**
      * 将二叉查找树变为有序的双向链表 要求不能创建新节点，只调整指针。
-     * http://blog.csdn.net/ljianhui/article/details/22338405
      * 递归解法：
      * 参考了http://stackoverflow.com/questions/11511898/converting-a-binary-search-tree-to-doubly-linked-list#answer-11530016
      * 感觉是最清晰的递归解法，但要注意递归完，root会在链表的中间位置，因此要手动
@@ -510,7 +425,7 @@ public class BinaryTreeSummary {
         }
         Stack<TreeNode> stack = new Stack<TreeNode>();
         TreeNode cur = root;        // 指向当前处理节点
-        TreeNode old = null;        // 指向前一个处理的节点
+        TreeNode old = null;            // 指向前一个处理的节点
         TreeNode head = null;       // 链表头
 
         while( true ){
@@ -1143,6 +1058,103 @@ public class BinaryTreeSummary {
         public boolean equalsTo(Pair obj){
             return this.height==obj.height && this.isFull==obj.isFull;
         }
+    }
+
+    public static void main(String[] args) {
+        TreeNode r1 = new TreeNode(1);
+        TreeNode r2 = new TreeNode(2);
+        TreeNode r3 = new TreeNode(3);
+        TreeNode r4 = new TreeNode(4);
+        TreeNode r5 = new TreeNode(5);
+        TreeNode r6 = new TreeNode(6);
+
+        r1.left = r2;
+        r1.right = r3;
+
+        r2.left = r4;
+        r2.right = r5;
+
+        r3.right = r6;
+
+        //求节点数 高度
+      System.out.println(getNodeNumRec(r1));
+      System.out.println(getNodeNum(r1));
+//      System.out.println(getDepthRec(r1));
+//      System.out.println(getDepth(r1));
+//      System.out.println(getWidth(r1));
+
+        //前中后遍历
+//      preorderTraversalRec(r1);  //1 2 4 5 3 6
+//      System.out.println();
+//      preorderTraversal(r1);
+//      System.out.println();
+//      inorderTraversalRec(r1);      //4 2 5 1 3 6
+//      System.out.println();
+//      inorderTraversal(r1);
+//      System.out.println();
+//      postorderTraversalRec(r1);        //4 5 2 6 3 1
+//      System.out.println();
+//      postorderTraversal(r1);
+//      System.out.println();
+
+        //层序遍历
+//      levelTraversal(r1);
+//      System.out.println();
+//      levelTraversalRec(r1);
+//      System.out.println();
+
+//      TreeNode tmp = convertBSTRec(r1);
+//      while(true){
+//          if(tmp == null){
+//              break;
+//          }
+//          System.out.print(tmp.val + " ");
+//          if(tmp.right == null){
+//              break;
+//          }
+//          tmp = tmp.right;
+//      }
+//      System.out.println();
+//      while(true){
+//          if(tmp == null){
+//              break;
+//          }
+//          System.out.print(tmp.val + " ");
+//          if(tmp.left == null){
+//              break;
+//          }
+//          tmp = tmp.left;
+//      }
+
+
+//      TreeNode tmp = convertBST2DLL(r1);
+//      while(true){
+//          if(tmp == null){
+//              break;
+//          }
+//          System.out.print(tmp.val + " ");
+//          if(tmp.right == null){
+//              break;
+//          }
+//          tmp = tmp.right;
+//      }
+
+//      System.out.println(getNodeNumKthLevelRec(r1, 2));
+//      System.out.println(getNodeNumKthLevel(r1, 2));
+
+//      System.out.println(getNodeNumLeafRec(r1));
+//      System.out.println(getNodeNumLeaf(r1));
+
+//      System.out.println(isSame(r1, r1));
+//      inorderTraversal(r1);
+//      System.out.println();
+//      mirror(r1);
+//      TreeNode mirrorRoot = mirrorCopy(r1);
+//      inorderTraversal(mirrorRoot);
+
+//        System.out.println(isCompleteBinaryTree(r1));
+//        System.out.println(isCompleteBinaryTreeRec(r1));
+
     }
 
 }

@@ -10,15 +10,19 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class Topologic {
 
 
+    static int[][] graph = {
+            {
+
+            }
+    };
     public static void main(String[] args) {
         int[] toposort = {};
         topologic(toposort);
     }
 
     private static void topologic(int[] toposort) {
-        int cnt = 0;
-        Queue<Integer> q = new ArrayBlockingQueue<Integer>(toposort.length);
-        int[][] graph = new int[toposort.length][toposort.length];
+//        int cnt = 0;//当前拓扑排序中有多少节点
+        Queue<Integer> q = new ArrayBlockingQueue<Integer>(toposort.length);//保存入度为0的节点,也可以用栈
         int[] indegree = new int[toposort.length];
         for (int i = 0; i < toposort.length; i++) {
             if (indegree[i] == 0){

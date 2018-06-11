@@ -31,7 +31,9 @@ public class AddTwoNumbers {
         int carry =0;
 
         ListNode newHead = new ListNode(0);//作为暂存首节点
-        ListNode p1 = l1, p2 = l2, p3=newHead; //p3作为操作变量
+        ListNode p1 = l1,
+                p2 = l2,
+                p3=newHead; //p3作为操作变量
 
         while(p1 != null || p2 != null){
             if(p1 != null){

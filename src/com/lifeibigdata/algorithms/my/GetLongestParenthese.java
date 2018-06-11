@@ -17,8 +17,8 @@ public class GetLongestParenthese {
         int start = -1;
         for (int i = 0; i < p.length; i++) {
             if (p[i] == '('){
-                s.push(i);  //如果为左括号,压栈;存储的是索引值
-            } else {        //p[i] == ')';踏一定与栈顶的左括号匹配
+                s.push(i);  //todo 如果为左括号,压栈;存储的是索引值
+            } else {        //p[i] == ')';它一定与栈顶的左括号匹配
                 if (s.empty()){//做若栈为空,表示没有匹配的左括号,start=i,为下一次可能的匹配做准备
                     start = i;
                 } else {//如果栈不为空,出栈(因为和')'匹配了)

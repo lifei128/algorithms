@@ -72,4 +72,11 @@ public class TopologicalSort_Algorithm {
         String[]result = alg.TopologicalSort();
         for(String e:result) System.out.print(e+" ");
     }
+    /**
+     *
+     3 3
+     1 2
+     2 3
+     1 3
+     */
 }

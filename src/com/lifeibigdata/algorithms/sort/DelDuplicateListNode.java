@@ -22,9 +22,9 @@ public class DelDuplicateListNode {
             pHead.pNext = p;
         }
         print(pHead);
-//        delDuplicate(pHead);
+        delDuplicate(pHead);
 //        delDuplicate2(pHead);
-        delDuplicate3(pHead);
+//        delDuplicate3(pHead);
         print(pHead);
     }
 
@@ -36,6 +36,7 @@ public class DelDuplicateListNode {
             if (pCur != null && pCur.value == pPre.value){
                 pPre.pNext = pCur.pNext;
             } else {
+//                pPre.pNext = pCur;//todo 因为链表默认有这一层关系
                 pPre = pCur;
             }
         }
@@ -47,12 +48,14 @@ public class DelDuplicateListNode {
         tagSNode pNext;
         while (pCur != null){
             pNext = pCur.pNext;
-            while (pNext != null && pCur.value == pNext.value){
+            while (pNext != null && pCur.value == pNext.value){//todo
                 pPre.pNext = pNext;
                 pCur = pNext;
-                pNext = pCur.pNext;
+                pNext = pCur.pNext;//=> pNext = pNext.pNext;
             }
             pPre = pCur;
+
+
             pCur = pNext;
         }
     }
@@ -67,8 +70,12 @@ public class DelDuplicateListNode {
             bDup = false;//TODO
             while (pNext != null && pCur.value == pNext.value){
                 pPre.pNext = pNext;
+
                 pCur = pNext;
-                pNext = pCur.pNext;
+
+//                pNext = pCur.pNext;//todo 也可以
+                pNext = pNext.pNext;
+
                 bDup = true;
             }
             if (bDup){//此刻的pCurl与原数据重复,删之
