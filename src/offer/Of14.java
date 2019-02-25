@@ -19,7 +19,7 @@ public class Of14 {
         int q = arr.length - 1;
 
         while (q - p > 1) {
-            if (isEven(arr[p]) && isEven(arr[q])) {//两个都是偶数,q需要--
+            if (isEven(arr[p]) && isEven(arr[q])) {//两个都是偶数,q是正确的位置，所以q需要--，从高位走向低位
                 q--;
             } else if (isEven(arr[p]) && !isEven(arr[q])) {//q是偶数,p是奇数需要替换
                 int t = arr[q];

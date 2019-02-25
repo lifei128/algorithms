@@ -30,5 +30,4 @@ public class Catalan {
             pCalatan[i] = c;
         }
     }
-
 }

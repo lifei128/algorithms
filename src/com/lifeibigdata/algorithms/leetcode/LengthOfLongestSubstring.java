@@ -8,6 +8,7 @@ import java.util.Set;
 /**
  * Created by lifei on 16/5/27.
  *
+ * 如果包含重复，此算法有问题
  *  时间复杂度为O(N)的算法
  使用i和j两个指针进行搜索，i代表候选的最长子串的开头，j代表候选的最长子串的结尾。
  先假设i不动，那么在理想的情况下，我们希望可以一直右移j，直到j到达原字符串的结尾，此时j-i就构成了一个候选的最长子串。每次都维护一个max_length，就可以选出最长子串了。
@@ -23,35 +24,35 @@ public class LengthOfLongestSubstring {
 
     }
 
-    public int lengthOfLongestSubstring(String s) {
-        int n = s.length(), ans = 0;
-        int[] index = new int[128]; // current index of character
-        // try to extend the range [i, j]
-        for (int j = 0, i = 0; j < n; ++j) {
-            i = Math.max(index[s.charAt(j)], i);//index['a']会将char转为ascII码,a是97
-            ans = Math.max(ans, j - i + 1);
-            index[s.charAt(j)] = j + 1;   //将j所在的值,的对应位置存到index数组中
-        }
-        return ans;
-    }
-
-
 //    public int lengthOfLongestSubstring(String s) {
-//        int n = s.length();
-//        Set<Character> set = new HashSet<>();
-//        int ans = 0, i = 0, j = 0;
-//        while (i < n && j < n) {
-//            // try to extend the range [i, j]
-//            if (!set.contains(s.charAt(j))){       //如果j没有出现重复字符,将j添加到set中,这个过程中,i保持不变
-//                set.add(s.charAt(j++));
-//                ans = Math.max(ans, j - i);        //比较获取最大的ans
-//            }
-//            else {                                 //出现重复字符,这个字符在i-j之间,所以从i开始逐个删除,直到不包含重复字符
-//                set.remove(s.charAt(i++));
-//            }
+//        int n = s.length(), ans = 0;
+//        int[] index = new int[128]; // current index of character
+//        // try to extend the range [i, j]
+//        for (int j = 0, i = 0; j < n; ++j) {
+//            i = Math.max(index[s.charAt(j)], i);//index['a']会将char转为ascII码,a是97
+//            ans = Math.max(ans, j - i + 1);
+//            index[s.charAt(j)] = j + 1;   //将j所在的值,的对应位置存到index数组中
 //        }
 //        return ans;
 //    }
+
+
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0, i = 0, j = 0;
+        while (i < n && j < n) {
+            // try to extend the range [i, j]
+            if (!set.contains(s.charAt(j))){       //如果j没有出现重复字符,将j添加到set中,这个过程中,i保持不变
+                set.add(s.charAt(j++));
+                ans = Math.max(ans, j - i);        //比较获取最大的ans
+            }
+            else {                                 //出现重复字符,这个字符在i-j之间,所以从i开始逐个删除,直到不包含重复字符
+                set.remove(s.charAt(i++));
+            }
+        }
+        return ans;
+    }
 
 
 //    public int lengthOfLongestSubstring(String s) {    //使用map存储字母和索引

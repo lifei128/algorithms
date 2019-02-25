@@ -3,6 +3,10 @@ package offer;
 /**
  * Created by lifei on 2017/3/27.
  *  题目一：写一个函数，输入n，求斐波那契数列的第n项
+ *
+ *  n = 0 时 f(n) = 0；
+ *  n = 1 时 f(n) = 1;
+ *  n > 1 时 f(n) = f(n - 1) - f(n - 2) ;
  */
 public class Of9 {
 
@@ -17,7 +21,7 @@ public class Of9 {
             return preone;
         }
         for (int i = 2; i <=n ; i++) {
-            result = preone + pretwo;
+            result = preone + pretwo;//结果保证由最后两个值得到
             pretwo = preone;
             preone = result;
         }
@@ -32,7 +36,8 @@ public class Of9 {
      当n  =3时，有三种跳法，第一次跳出一阶后，后面还有Fib(3-1)中跳法；第一次跳出二阶后，后面还有Fib(3-2)中跳法；第一次跳出三阶后，后面还有Fib(3-3)中跳法
      Fib(3)= Fib(2)+Fib(1)+Fib(0) = 4
      当n= n时，共有n种跳法方式，第一次跳出一阶后，后面还有Fib(n-1）种跳法；第一次跳出二阶后，后面还有Fib（n-2)种跳法，第一次跳出n阶后，后面还有Fib(n-n)种体哦啊发。
-     Fib(n) = Fib(n-1)+Fib(n-2)+Fib(n-3)+..........+Fib(n-n)=Fib(0)+Fib(1)+Fib(2)+.......+Fib(n-1)
+     Fib(n) = Fib(n-1)+Fib(n-2)+Fib(n-3)+..........+Fib(n-n)
+            = Fib(0)+Fib(1)+Fib(2)+.......+Fib(n-1)
      又因为Fib(n-1)=Fib(0)+Fib(1)+Fib(2)+.......+Fib(n-2)
      两式相减得：Fib(n)-Fib(n-1)=Fib(n-1)         =====》  Fib(n) = 2*Fib(n-1)     n >= 2
      */

@@ -4,7 +4,10 @@ package offer;
  * Created by lifei on 2017/3/28.
  * 题目：输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则返回true，否则返回false。假设输入的数组的任意两个数字都互不相同。
  *
- * 在后序遍历得到的序列中，最后一个数字是树的根节点的值。数组中前面的数字可以分为两部分：第一部分是左子树结点的值，它们都比根节点的值小；第二部分是右子树结点的值，他们都比根节点的值大。
+ * 在后序遍历得到的序列中，最后一个数字是树的根节点的值。
+ * 数组中前面的数字可以分为两部分：
+ *      第一部分是左子树结点的值，它们都比根节点的值小；
+ *      第二部分是右子树结点的值，他们都比根节点的值大。
  */
 public class Of24 {
 
@@ -23,7 +26,7 @@ public class Of24 {
             throw new Exception("last can't be greater than the count of the element.");
         }
         int root = arr[end];
-        int i = start;//在二叉搜索树中左子树的结点小于根节点
+        int i = start;//在二叉搜索树中左子树的结点小于根节点，TODO 首次start从0开始
         for (; i < end; i++) {
             if (arr[i] > root) break;
         }

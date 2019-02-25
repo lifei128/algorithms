@@ -45,7 +45,6 @@ public class Treepath {
         }
         getPathCore(root.left,list);
         getPathCore(root.right,list);
-//        System.out.println("last remove:"+list.getLast().data);
         list.removeLast();//todo  返回时一定要清除    最后一个节点是最后一个叉的根节点,一定是要排除的,因为这个节点的左右方向都走完了
     }
 

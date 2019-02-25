@@ -4,7 +4,6 @@ package offer;
  * Created by lifei on 2017/3/27.
  * 题目：给定单向链表的头指针和一个节点指针，定义一个函数在O(1)时间删除该节点。
  *
- *  将待删除节点(A)下一个节点(B)的值,赋值给待删除节点;将待删除节点指向B的下一个节点
  *
  */
 public class Of13 {
@@ -26,7 +25,7 @@ public class Of13 {
         node1.nextNode = node2;
         node2.nextNode = node3;
 
-        Node root = removeNode(head,node2);
+        Node root = removeNode(head,node3);
         while (root != null){
             System.out.println(root.data);
             root = root.nextNode;
@@ -41,10 +40,10 @@ public class Of13 {
             head = null;
         } else {
             if (delNode.nextNode == null){//delnode
-                while (newhead.nextNode.nextNode != null){//在倒数第二个节点停止   ... node node null
-                    newhead = newhead.nextNode;
+                while (head.nextNode.nextNode != null){//在倒数第二个节点停止   ... node node null
+                    head = head.nextNode;
                 }
-                newhead.nextNode = null;
+                head.nextNode = null;
             } else {
                 delNode.data = delNode.nextNode.data;
                 delNode.nextNode = delNode.nextNode.nextNode;

@@ -7,10 +7,6 @@ import java.util.Queue;
  * Created by leofei.li on 2016/5/21.
  */
 public class BFS {
-    static int verNum;
-    static boolean []visited;
-    static String []ver={"A","B","C","D","E"};  //定义节点
-    static int  [][]edge;
 
     void addEdge(int i,int j){              //添加节点关系
         if(i == j)return;
@@ -69,6 +65,11 @@ public class BFS {
         }
         System.out.println("共有"+count+"个连通分量!");
     }
+
+    static int verNum;//节点数
+    static boolean []visited;//定义辅助数组
+    static String []ver={"A","B","C","D","E"};  //定义节点
+    static int  [][]edge;//邻接矩阵
 
     public static void main(String[] args) {
         verNum = ver.length;

@@ -6,10 +6,14 @@ package offer;
  *
  * 解法一：基于Partition函数的O(n)算法  求中位数
  * 解法二：根据数组的特点找出O(n)的算法
- *
- * 快速排序http://www.cnblogs.com/surgewong/p/3381438.html
+ * 本题采用第一种实现方式。
  * https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3577540174517580868%22%7D
  * http://blog.csdn.net/morewindows/article/details/6684558
+ * 快速排序http://www.cnblogs.com/surgewong/p/3381438.html
+ *
+ *
+ * 第二种方式见
+ * http://wiki.jikexueyuan.com/project/for-offer/question-twenty-nine.html
  */
 public class Of29 {
     public static void main(String[] args) {
@@ -22,7 +26,7 @@ public class Of29 {
         if (arr.length == 0)
             return -1;
         int length = arr.length;
-        int middle = length >> 1;
+        int middle = length >> 1;//todo middle
         
         int start = 0;
         int end = length - 1;

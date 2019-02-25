@@ -29,7 +29,7 @@ public class Of8 {
                 break;
             }
             midIndex = (leftIndex + rightIndex)/2;//得到中间的数据项
-            if (arr[leftIndex] == arr[rightIndex] && arr[midIndex] == arr[leftIndex]){//中间的数据项和两边的数据项相等
+            if (arr[leftIndex] == arr[rightIndex] && arr[midIndex] == arr[leftIndex]){//中间的数据项和两边的数据项相等，举例就是2,2,2,2,2,0,1,2,2这种情况
                 return minOrder(arr,leftIndex,rightIndex);
             }
             if (arr[midIndex] >= arr[leftIndex])

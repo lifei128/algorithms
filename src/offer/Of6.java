@@ -62,8 +62,7 @@ public class Of6 {
 
         //只有一个元素
         if (startPreIndex == endPreIndex){
-            if (startInIndex == endInIndex
-                    && preOrder[startPreIndex] == inOrder[startInIndex]){
+            if (startInIndex == endInIndex && preOrder[startPreIndex] == inOrder[startInIndex]){
                 System.out.println("only one element");
                 return root;
             } else {
@@ -75,7 +74,7 @@ public class Of6 {
             }
         }
 
-        //在中序遍历中找到根节点的索引
+        //todo 在中序遍历中找到根节点的索引
         int rootInIndex = startInIndex;
 
         while (rootInIndex <= endInIndex && inOrder[rootInIndex] != rootVal){
@@ -89,13 +88,14 @@ public class Of6 {
                 e.printStackTrace();
             }
         }
-        int leftLength = rootInIndex - startInIndex;//中序遍历的左半部分
-        int leftPreOrderEndIndex = startPreIndex + leftLength;//前序遍历的左子树
+        int leftLength = rootInIndex - startInIndex;//todo 中序遍历的左半部分
+        int leftPreOrderEndIndex = startPreIndex + leftLength;//todo 前序遍历的左子树
 
         if (leftLength > 0){
             //构建左子树
             root.left =
-                    constructCore(preOrder,startPreIndex + 1, leftPreOrderEndIndex,
+                    constructCore(
+                            preOrder,startPreIndex + 1, leftPreOrderEndIndex,
                             inOrder,startInIndex,rootInIndex - 1);
         }
         if (leftLength < endPreIndex - startPreIndex){

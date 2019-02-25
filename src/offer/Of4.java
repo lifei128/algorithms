@@ -25,10 +25,10 @@ public class Of4 {
             return;
         }
         int oldlength = str.length();
-        int newlength = oldlength + 2*blankNum;
+        int newlength = oldlength + 2*blankNum;//获取新数组长度
         char[] newChars = new char[newlength];
         System.arraycopy(chars,0,newChars,0,oldlength);
-        int p = oldlength - 1;
+        int p = oldlength - 1;//todo 从后向前遍历
         int q = newlength - 1;
         while (p >= 0){
             if (chars[p] != ' '){

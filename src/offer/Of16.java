@@ -4,9 +4,8 @@ package offer;
  * Created by lifei on 2017/3/27.
  * 题目：定义一个函数，输入一个链表的头结点，反转该链表并输出反转后链表的头结点。
  *
- * 翻转链表,而不是从尾开始打印
+ * todo 翻转链表,而不是从尾开始打印
  *
- * http://blog.csdn.net/jsqfengbao/article/details/47187709
  */
 public class Of16 {
 

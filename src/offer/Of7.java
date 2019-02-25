@@ -12,7 +12,7 @@ import java.util.Stack;
 public class Of7 {
 
     //用两个栈实现队列
-    //一个栈进,一个栈出;当出栈被清空之后,将进栈弹出加到出栈中
+    //todo 一个栈进,一个栈出;当出栈被清空之后,将进栈弹出加到出栈中;如果出栈不为空，则直接从出栈弹出
     Stack<Integer> inStack = new Stack<Integer>();
     Stack<Integer> outStack = new Stack<Integer>();
 
@@ -38,7 +38,8 @@ public class Of7 {
 
 
     //用两个队列实现栈
-    //
+    //两个队列都为空为push到q1,否则哪个为空插入哪个
+    //始终保证一个队列为空，弹出项为不为空队列的队尾元素
     LinkedList<String> q1 = new LinkedList<>();
     LinkedList<String> q2 = new LinkedList<>();
 
@@ -53,9 +54,10 @@ public class Of7 {
         return str;
     }
 
+
     public String pop(){
         String re =null;
-        if(q1.size() == 0 && q2.size() == 0){
+        if(q1.size() == 0 && q2.size() == 0){//如果两个队列为空则返回null
             return null;
         }
         if(q2.size() == 0){
@@ -74,9 +76,5 @@ public class Of7 {
             }
         }
         return re;
-    }
-    public static void main(String[] args) {
-
-
     }
 }

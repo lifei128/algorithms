@@ -38,7 +38,7 @@ public class Of15 {
             if (p.nextNode != null){
                 p = p.nextNode;
             } else {
-                return null;
+                return null;//todo 长度不满足为k时，返回null
             }
         }
         q = head;

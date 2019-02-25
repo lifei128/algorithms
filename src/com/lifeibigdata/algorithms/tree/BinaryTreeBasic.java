@@ -15,7 +15,6 @@ import java.util.Stack;
  */
 public class BinaryTreeBasic {
 
-
     /*
                  1
                 / \

@@ -4,7 +4,6 @@ package offer;
  * Created by lifei on 2017/3/27.
  * 题目：输入两棵二叉树A和B，判断B是不是A的子结构。
  *
- * 判断链表子结构,数组子结构
  */
 public class Of18 {
     static class TreeNode{

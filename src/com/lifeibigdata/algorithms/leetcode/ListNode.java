@@ -6,5 +6,5 @@ package com.lifeibigdata.algorithms.leetcode;
 public class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    public ListNode(int x) { val = x; }
 }

@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Unit {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 2;
         List<String> list = allParentheses(n);
         for (int i = 0; i < list.size(); i++) {
             System.out.println(i+1+": "+list.get(i));
@@ -28,8 +28,10 @@ public class Unit {
         List<String> prefix = new ArrayList<>();
         List<String> suffix = new ArrayList<>();
         for (int i = 0; i < n; i++) {
+//            System.out.println(i+"~~~~~"+(n - i - 1));
             prefix = allParentheses(i);
             suffix = allParentheses(n - i -1);
+//            System.out.println(prefix+"#####"+suffix);
             unit(rst,prefix,suffix);
         }
         return rst;
@@ -43,6 +45,7 @@ public class Unit {
                 r += prefix.get(i);
                 r += ")";
                 r += suffix.get(j);
+//                System.out.println(prefix.size()+"***"+r+"$$$"+suffix.size());
                 rst.add(r);
             }
         }

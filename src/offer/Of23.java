@@ -43,6 +43,23 @@ public class Of23 {
 
     }
 
+    private static void printTree(TreeNode root1) {
+        if (root1 == null) return;
+        Queue<TreeNode> queue = new LinkedList<>();//todo 使用队列
+        queue.add(root1);
+        while (!queue.isEmpty()){
+            TreeNode node = queue.poll();
+            System.out.print(node.data+",");
+            if (node.left != null){
+                queue.add(node.left);
+            }
+            if (node.right != null){
+                queue.add(node.right);
+            }
+        }
+
+    }
+
     private static void printTree5(TreeNode root1) {
         if (root1 == null)return;
         Stack<TreeNode> s = new Stack<>();
@@ -103,22 +120,6 @@ public class Of23 {
             printTree2(root1.right);
     }
 
-    private static void printTree(TreeNode root1) {
-        if (root1 == null) return;
-        Queue<TreeNode> queue = new LinkedList<>();//todo 使用队列
-        queue.add(root1);
-        while (!queue.isEmpty()){
-            TreeNode node = queue.poll();
-            System.out.print(node.data+",");
-            if (node.left != null){
-                queue.add(node.left);
-            }
-            if (node.right != null){
-                queue.add(node.right);
-            }
-        }
-
-    }
 }
 /*
 *

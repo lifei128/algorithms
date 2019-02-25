@@ -5,7 +5,8 @@ import java.util.PriorityQueue;
 
 /**
  * Created by lifei on 2017/4/2.
- * 题目：输入n个整数，找出其中最小的k个数。例如输入4，5，1，6，2，7，3，8这8个数字，则最小的4个数字是1，2，3，4
+ * 题目：输入n个整数，找出其中最小的k个数。
+ * 例如输入4，5，1，6，2，7，3，8这8个数字，则最小的4个数字是1，2，3，4
  *
  * 解法一：O(n)的算法，只有当我们可以修改输入的数组时可用
  * 解法二：O(nlogk)的算法，特别适用处理海量数据
@@ -62,7 +63,7 @@ public class Of30 {
         PriorityQueue<Integer> q = new PriorityQueue<>();
         for (int i:input) {
             q.offer(i);
-            if (q.size() > k){
+            if (q.size() > k){//时钟保证队列中有k个元素，如果超过则弹出最大的
                 q.poll();
             }
         }
