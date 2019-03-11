@@ -2,6 +2,7 @@ package com.lifeibigdata.bilibili;
 
 /**
  * Created by lifei on 2018/6/21.
+ * 八皇后
  */
 public class Queen {
     public static int num = 0;//累计方案

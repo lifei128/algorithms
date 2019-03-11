@@ -3,6 +3,8 @@ package com.lifeibigdata.algorithms.sort;
 /**
  * Created by lifei on 16/8/9.
  *
+ *
+ *
  * 特点是简单，不需要额外的存储空间，在元素少的时候工作得好
  */
 public class InsertSort {

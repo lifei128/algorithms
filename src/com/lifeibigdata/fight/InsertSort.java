@@ -2,6 +2,7 @@ package com.lifeibigdata.fight;
 
 /**
  * Created by lifei on 16/10/24.
+ *
  */
 public class InsertSort {
 

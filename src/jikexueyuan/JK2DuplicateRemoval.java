@@ -21,7 +21,9 @@ package jikexueyuan;
 public class JK2DuplicateRemoval {
     public static void main(String[] args) {
         char str[]="AAABCCCDFGGIIIKKLMNNOOPQQQQR".toCharArray();
-        int size  = removeAll(str);
+        int size  = remove(str);
+//        int size  = removeAll(str);
+//        int size  = removeN(str,2);
         for (int i = 0; i < size; i++) {
             System.out.print(str[i]);
         }
@@ -35,7 +37,7 @@ public class JK2DuplicateRemoval {
         if (str.length < 0)return -1;
         int slow = 1;
         for (int fast = 1; fast < str.length; fast++) {
-            if (str[fast] != str[slow - 1]){
+            if (str[fast] != str[slow - 1]){//todo     slow - 1
                 str[slow++] = str[fast];
             }
         }
@@ -50,13 +52,13 @@ public class JK2DuplicateRemoval {
     private static int removeN(char[] str,int repeatN) {
         if (str.length <= repeatN)
             return str.length;
-        int index = repeatN;
-        for (int i = repeatN; i < str.length; i++) {
-            if (str[i] != str[index - repeatN]){
-                str[index++] = str[i];
+        int slow = repeatN;
+        for (int fast = repeatN; fast < str.length; fast++) {
+            if (str[fast] != str[slow - repeatN]){//todo     slow - repeatN
+                str[slow++] = str[fast];
             }
         }
-        return index;
+        return slow;
     }
 
     /**
@@ -66,7 +68,7 @@ public class JK2DuplicateRemoval {
      */
     private static int removeAll(char[] str) {//遍历所有字符
         int flag = 0;
-        int index = -1;
+        int slow = -1;
         int pos;
         for (pos = 0; pos + 1 < str.length; pos++) {
             if (str[pos] == str[pos+1]){//如果当前字符和下一个字符相同
@@ -75,13 +77,13 @@ public class JK2DuplicateRemoval {
                 if (flag == 1){//跳过该字符
                     flag = 0;
                 } else {
-                    index++;
-                    str[index] = str[pos];
+                    slow++;
+                    str[slow] = str[pos];//todo 赋值
                 }
             }
         }
         if(str[pos]!= str[pos-1])
-            str[++index] = str[pos];//todo ++index
-        return ++index;
+            str[++slow] = str[pos];//todo ++index
+        return ++slow;
     }
 }

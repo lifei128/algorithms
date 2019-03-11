@@ -2,41 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b12c4b3-e20a-480c-9f83-16f3b457cd72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ManacherPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MergeSort2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/L0_note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/array/ThreeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L14_longestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L14_longestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L15_threeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L15_threeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L16_threeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L16_threeSumClosest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L18_fourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L18_fourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L19_removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L19_removeNthFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L1_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L1_twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L20_isValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L20_isValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L21_mergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L21_mergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L22_generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L22_generateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L23_MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L23_MergeKLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L26_removeDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L26_removeDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L2_addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L2_addTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L3_lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L3_lengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L405_toHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L405_toHex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L4_findMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L4_findMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L5_longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L5_longestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L7_reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L7_reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/L9_isPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L9_isPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/linear/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/lru/L146_LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L146_LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/recursion/L698_CanPartitionKSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L698_CanPartitionKSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/recursion/L726_CountOfAtoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L726_CountOfAtoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L100_IsSameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L100_IsSameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L101_IsSymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L101_IsSymmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L102_LevelorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L102_LevelorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L103_ZigzagLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L103_ZigzagLevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L104_TreeMaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L104_TreeMaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L105_BuildTreeByPreMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L105_BuildTreeByPreMiddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L106_BuildTreeByMiddlePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L106_BuildTreeByMiddlePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L107_levelOrderBottomTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L107_levelOrderBottomTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L108_SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L108_SortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L110_IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L110_IsBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L111_MinDepthTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L111_MinDepthTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L112_HasPathSumTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L112_HasPathSumTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L113_PathSumTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L113_PathSumTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L114_BstFlattenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L114_BstFlattenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L115_PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L115_PostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L116_TreeConnectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L116_TreeConnectOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L124_TreeMaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L124_TreeMaxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L129_TreeSumNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L129_TreeSumNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L144_PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L144_PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L199_TreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L199_TreeRightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L222_TreeCountNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L222_TreeCountNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L226_InvertTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L226_InvertTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L230_TreeKthSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L230_TreeKthSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L235_BSTLowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L235_BSTLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L236_TreeLowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L236_TreeLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L257_BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L257_BinaryTreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L297_DeserializeSerializeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L297_DeserializeSerializeTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L404_TreeSumOfLeftLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L404_TreeSumOfLeftLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L429_TreeLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L429_TreeLevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L437_TreePathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L437_TreePathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L501_BSTFindMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L501_BSTFindMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L530_BSTgetMinimumDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L530_BSTgetMinimumDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L543_DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L543_DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L572_IsSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L572_IsSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L617_MergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L617_MergeTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L654_ConstructMaximumBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L654_ConstructMaximumBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L671_BSTFindSecondMinimumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L671_BSTFindSecondMinimumValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L687_LongestUnivaluePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L687_LongestUnivaluePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L700_SearchBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L700_SearchBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L897_IncreasingBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L897_IncreasingBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L94_InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L94_InorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L95_GenerateTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L95_GenerateTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L965_IsUnivalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L965_IsUnivalTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L96_NumTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L96_NumTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L98_IsValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L98_IsValidBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/topic/tree/L99_RecoverTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L99_RecoverTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/FindMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/array/MaxSubarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/CtreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LongSubstringK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/LongSubstringK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Root2Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Root2Leaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/StackImplementByTwoQueues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ThreeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/LinkedListSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/linearlist/ListAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/ABCgroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/my/Callatz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/Nixudui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/Nixudui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuictSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuictSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Manacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/BinaryTreeBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/BinaryTreeBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/BinaryTreeSummary.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Catalan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Catalan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/HuffmanTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/MousePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/MousePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Sum100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Sum100.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BasicSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/offer/PrintListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/offer/PrintListReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of21.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of22.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of31.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of39.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Of9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oschinablog/Treepath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oschinablog/Treepath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/WriteReadTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tuck/Euclideanalgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tuck/Euclideanalgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BSTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BSTreeToLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryInsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryInsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Fib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/FirstMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/FirstMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphDijstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphDijstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphKruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphKruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphTopologic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphTopologic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Greedy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/LCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/MathExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/MaxSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/MaxSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/SearchBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/SearchBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Sharewine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Sharewine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/SplitTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/SplitTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/TreeMirror.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZeroSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZipString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZipString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/dispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/bilibili/dispatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/fight/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/fight/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/fight/RingQuene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lifeibigdata/fight/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/fight/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jikexueyuan/JK1numDecodings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/L91_numDecodings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jikexueyuan/JK2DuplicateRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jikexueyuan/JK2DuplicateRemoval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jikexueyuan/JK4Nixudui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jikexueyuan/JK6FindBound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of17_removeLinkedNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of21_reOrderArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of22_findKthLinkedNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of24_ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of25_MergeSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of26_SubstructureInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of27_MirrorOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of32_printTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of33_SquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of34_SumOfPathInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of36_ConvertBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of38_StringPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of39_MoreThanHalfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of3_findKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of40_KLeastNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of4_replaceBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of5_reversePrintLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of6_constructTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of8_twoQuenesTwoStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of10_minNumberInRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Of9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Of9_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oschinablog/SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/SortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oschinablog/Treepath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lifeibigdata/Treepath.java" afterDir="false" />
     </list>
     <ignored path="algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,46 +187,47 @@
     <session id="1713702355">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="70" />
+          <entry key="project.closed" value="90" />
           <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="15" />
+          <entry key="project.open.time.1" value="19" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="17" />
-          <entry key="project.open.time.8" value="15" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.open.time.7" value="19" />
+          <entry key="project.open.time.8" value="23" />
+          <entry key="project.open.time.9" value="10" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="L0_note" value="3" />
-          <entry key="java" value="577" />
-          <entry key="note" value="4" />
+          <entry key="L0_note" value="4" />
+          <entry key="java" value="1078" />
+          <entry key="note" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="577" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="1078" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="253" />
-          <entry key="java" value="24307" />
+          <entry key="dummy" value="524" />
+          <entry key="java" value="29637" />
           <entry key="note" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24307" />
-          <entry key="PLAIN_TEXT" value="259" />
+          <entry key="JAVA" value="29637" />
+          <entry key="PLAIN_TEXT" value="530" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -111,91 +239,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of25.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of27.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of28.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of29.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="18" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="678">
+              <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of30.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix_optimize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of23.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="59" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of17.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of18.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Of19.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="5" selection-end-line="55" />
+            <state relative-caret-position="153">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -212,30 +268,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sum</find>
-      <find>copy</find>
-      <find>clone</find>
-      <find>System</find>
-      <find>pre</find>
-      <find>inorder</find>
-      <find>Rec</find>
-      <find>width</find>
-      <find>递归</find>
-      <find>Re</find>
-      <find>convertBST2DLLRec</find>
-      <find>getNodeNumKthLevelRec</find>
-      <find>isCompleteBinaryTreeRec</find>
-      <find>getNext</find>
-      <find>bruteForceSearch</find>
-      <find>bd</find>
-      <find>直接</find>
-      <find>lengthOfLongestSubstring</find>
-      <find>longestPalindrome</find>
-      <find>isPalindrome</find>
-      <find>被</find>
-      <find>Graph</find>
-      <find>Queue</find>
+      <find>getLastCommonParentRec</find>
+      <find>curIndex</find>
+      <find>getLastK</find>
+      <find>next</find>
+      <find>==</find>
+      <find>翻转链表</find>
+      <find>不是迭代,是循环</find>
+      <find>o 1 2 3 4 5 6 7 8顶点数组</find>
+      <find>getNextNode</find>
+      <find>bfs</find>
+      <find>getMiddleNode</find>
+      <find>LongSubstringK</find>
+      <find>求解两个字符号的最长公共子串</find>
+      <find>allParentheses</find>
+      <find>isPerfectBinaryTreeRec</find>
+      <find>MaxLenInBinTree</find>
+      <find>cata</find>
+      <find>Catalan</find>
+      <find>49</find>
+      <find>49,38</find>
+      <find>insert</find>
+      <find>Manacher</find>
+      <find> </find>
+      <find>Duplicate</find>
+      <find>cycle</find>
+      <find>linked</find>
+      <find>has</find>
+      <find>quick</find>
+      <find>nums.length</find>
+      <find>matrix</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/bluebridgecup</dir>
     </dirStrings>
@@ -343,57 +409,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L3_lengthOfLongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L4_findMedianSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L5_longestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L7_reverse.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L9_isPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L14_longestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L405.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L22_generateParenthesis.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L20_isValid.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L23_MergeKLists.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L19_removeNthFromEnd.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L80_removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L26_removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/bluebridgecup/A16_zhaohai.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L15_threeSum.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L21_mergeTwoLists.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L16_threeSumClosest.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L18_fourSum.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L12_intToRoman.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L13_romanToInt.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/lru/L146_LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/linear/L405_toHex.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/L95_GenerateTrees.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/L98_IsValidBST.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/L99_RecoverTree.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/L102_LevelorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/TreeLongestUnivaluePath.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/topic/tree/L687_TreeLongestUnivaluePath.java" />
-        <option value="$PROJECT_DIR$/src/bluebridgecup/A01_Sum.java" />
-        <option value="$PROJECT_DIR$/src/bluebridgecup/A01_SumArray.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/offer/PrintListReverse.java" />
-        <option value="$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/BFS.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of3.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of4.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of5.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of6.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of7.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of8.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of9.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of13.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of14.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of15.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of16.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of18.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of23.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of24.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of25.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of27.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of29.java" />
-        <option value="$PROJECT_DIR$/src/offer/Of30.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of37_SerializeBinaryTrees.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of38_StringPermutation.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of39_MoreThanHalfNumber.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of40_KLeastNumbers.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of41_StreamMedian.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of42_GreatestSumOfSubarrays.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of43_NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of44_DigitsInSequence.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of45_SortArrayForMinNumber.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of46_TranslateNumbersToStrings.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of47_MaxValueOfGifts.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of48_LongestSubstringWithoutDup.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of49_UglyNumbe.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of50_1FirstNotRepeatingChar.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of50_2FirstCharacterInStream.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of36_InversePairs.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of42_maxSubarray.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of52_getFirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of53_NumberOfK.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of53_2MissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of53_3IntegerIdenticalToIndex.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of54_TreeSummary.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of54_KthTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of55_TreeSummary.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of56_1FindNumsAppearOnce.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of56_2findNumberAppearingOnce.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of57_1twoSum2.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of57_2FindContinuousSequence.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of59_2QueueWithMax.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of60_DicesProbability.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of61_ContinousCards.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of62_LastNumberInCircle.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of63_MaximalProfit.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of64_Accumulate.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of65_AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of66_ConstuctArray.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of68_getLowestCommonParentBST.java" />
+        <option value="$PROJECT_DIR$/src/offer/QuickSort2.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of67_StringToInt.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of1_getDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of2_getDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of3_findKey.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of4_replaceBlank.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of6_constructTree.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of6_constructTree_optimize.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of7_getNextTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of8_twoQuenesTwoStacks.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of10_minNumberInRotateArray_optimize.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix_optimize.java" />
+        <option value="$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix.java" />
+        <option value="$PROJECT_DIR$/src/offer/note/bsearch.java" />
       </list>
     </option>
   </component>
@@ -407,8 +473,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1279" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -416,9 +483,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,45 +499,22 @@
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeibigdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeibigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="bilibili" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeibigdata" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oschinablog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="L3&#9;PSI&#9;JAVA://LeetCode.topic.linear.L3_lengthOfLongestSubstring&#10;BFS&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.graph.liantongfenliang.BFS&#10;hex&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/linear/L405_toHex.java&#10;threesu&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.ThreeSum&#10;merge&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/heap/L23_MergeKLists.java&#10;bina&#9;PSI&#9;JAVA://com.lifeibigdata.bilibili.BinaryInsertSort&#10;insertsort&#9;PSI&#9;JAVA://com.lifeibigdata.fight.InsertSort&#10;kmp&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.string.KMP&#10;basic&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.tree.BinaryTreeBasic&#10;findmo&#9;PSI&#9;JAVA://LeetCode.topic.tree.L501_BSTFindMode&#10;issub&#9;PSI&#9;JAVA://LeetCode.topic.tree.IsSubtree&#10;pathsum&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreePathSum&#10;sumof&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeSumOfLeftLeaves&#10;serialize&#9;PSI&#9;JAVA://LeetCode.topic.tree.DeserializeSerializeTree&#10;bi&#9;PSI&#9;JAVA://LeetCode.topic.tree.BinaryTreePaths&#10;lowes&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeLowestCommonAncestor&#10;low&#9;PSI&#9;JAVA://LeetCode.topic.tree.BSTLowestCommonAncestor&#10;kth&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeKthSmallest&#10;inver&#9;PSI&#9;JAVA://LeetCode.topic.tree.InvertTree&#10;count&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeCountNodes&#10;right&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeRightSideView&#10;posto&#9;PSI&#9;JAVA://LeetCode.topic.tree.PostorderTraversal&#10;pre&#9;PSI&#9;JAVA://LeetCode.topic.tree.PreorderTraversal&#10;sumn&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/TreeSumNumbers.java&#10;SUMNU&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/TreeSumNumbers.java&#10;maxpa&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeMaxPathSum&#10;connect&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeConnectOne&#10;con&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/L654_ConstructMaximumBinaryTree.java&#10;flat&#9;PSI&#9;JAVA://LeetCode.topic.tree.BstFlattenList&#10;has&#9;PSI&#9;JAVA://LeetCode.topic.tree.HasPathSumTree&#10;minde&#9;PSI&#9;JAVA://LeetCode.topic.tree.MinDepthTree&#10;isbal&#9;PSI&#9;JAVA://LeetCode.topic.tree.IsBalancedTree&#10;sorted&#9;PSI&#9;JAVA://LeetCode.topic.tree.SortedArrayToBST&#10;level&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/levelOrderBottomTraversal.java&#10;build&#9;PSI&#9;JAVA://LeetCode.topic.tree.BuildTreeByPreMiddle&#10;maxde&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeMaxDepth&#10;zig&#9;PSI&#9;JAVA://LeetCode.topic.tree.ZigzagLevelOrder&#10;issy&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/IsSymmetric.java&#10;iss&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/IsSameTree.java&#10;isValidBST&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/IsValidBST.java&#10;numTrees&#9;PSI&#9;JAVA://LeetCode.topic.tree.NumTrees&#10;generateTrees&#9;PSI&#9;JAVA://LeetCode.topic.tree.GenerateTrees&#10;inorder&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/InorderTraversal.java&#10;treepa&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/oschinablog/Treepath.java&#10;treepath&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/oschinablog/Treepath.java&#10;three&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ThreeSum.java&#10;THREESUM&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/leetcode/ThreeSum.java&#10;Three&#9;PSI&#9;JAVA://LeetCode.topic.array.ThreeSum&#10;Treesum&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeSumNumbers&#10;treesum&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/TreePathSum.java" />
+    <property name="SearchEverywhereHistoryKey" value="StackImplementByTwoQueues.java&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/blog/StackImplementByTwoQueues.java&#10;LinkedListSummary&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.linearlist.LinkedListSummary&#10;l&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/linear/L146_LRUCache.java&#10;she&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/fight/ShellSort.java&#10;insertsort&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/fight/InsertSort.java&#10;insert&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/fight/InsertSort.java&#10;select&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/SelectSort.java&#10;bubb&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/sort/BubbleSort.java&#10;createBinaryTreePre&#9;PSI&#9;JAVA://com.lifeibigdata.bilibili.BinaryTree#createBinaryTreePre&#10;of4&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/offer/Of47.java&#10;longestsub&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.LengthOfLongestSubstring&#10;twos&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.TwoSum&#10;reverse&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/algorithms/string/ReverseWords2.java&#10;isva&#9;PSI&#9;JAVA://LeetCode.topic.linear.L20_isValid&#10;treesu&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.tree.BinaryTreeSummary&#10;common&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.linearlist.LinkedListSummary#getFirstCommonNode&#10;merge&#9;PSI&#9;JAVA://com.lifeibigdata.bilibili.MergeSort&#10;zip&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/com/lifeibigdata/bilibili/ZipString.java&#10;inver&#9;PSI&#9;JAVA://LeetCode.topic.tree.L226_InvertTree&#10;max&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.array.MaxSubarray&#10;sum&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.CombinationSum#sums&#10;L3&#9;PSI&#9;JAVA://LeetCode.topic.linear.L3_lengthOfLongestSubstring&#10;BFS&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.graph.liantongfenliang.BFS&#10;hex&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/linear/L405_toHex.java&#10;threesu&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.leetcode.ThreeSum&#10;bina&#9;PSI&#9;JAVA://com.lifeibigdata.bilibili.BinaryInsertSort&#10;kmp&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.string.KMP&#10;basic&#9;PSI&#9;JAVA://com.lifeibigdata.algorithms.tree.BinaryTreeBasic&#10;findmo&#9;PSI&#9;JAVA://LeetCode.topic.tree.L501_BSTFindMode&#10;issub&#9;PSI&#9;JAVA://LeetCode.topic.tree.IsSubtree&#10;pathsum&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreePathSum&#10;sumof&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeSumOfLeftLeaves&#10;serialize&#9;PSI&#9;JAVA://LeetCode.topic.tree.DeserializeSerializeTree&#10;bi&#9;PSI&#9;JAVA://LeetCode.topic.tree.BinaryTreePaths&#10;lowes&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeLowestCommonAncestor&#10;low&#9;PSI&#9;JAVA://LeetCode.topic.tree.BSTLowestCommonAncestor&#10;kth&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeKthSmallest&#10;count&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeCountNodes&#10;right&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeRightSideView&#10;posto&#9;PSI&#9;JAVA://LeetCode.topic.tree.PostorderTraversal&#10;pre&#9;PSI&#9;JAVA://LeetCode.topic.tree.PreorderTraversal&#10;sumn&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/TreeSumNumbers.java&#10;SUMNU&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/TreeSumNumbers.java&#10;maxpa&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeMaxPathSum&#10;connect&#9;PSI&#9;JAVA://LeetCode.topic.tree.TreeConnectOne&#10;con&#9;FILE&#9;file:///Users/lifei/myproject/algorithms/src/LeetCode/topic/tree/L654_ConstructMaximumBinaryTree.java&#10;flat&#9;PSI&#9;JAVA://LeetCode.topic.tree.BstFlattenList&#10;has&#9;PSI&#9;JAVA://LeetCode.topic.tree.HasPathSumTree&#10;minde&#9;PSI&#9;JAVA://LeetCode.topic.tree.MinDepthTree&#10;isbal&#9;PSI&#9;JAVA://LeetCode.topic.tree.IsBalancedTree" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551078146260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552226955808" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -486,12 +527,21 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LeetCode/topic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="LeetCode" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lifeibigdata.bilibili" />
+      <recent name="offer" />
       <recent name="com.lifeibigdata.algorithms.string" />
       <recent name="com.lifeibigdata.algorithms.sort" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/LeetCode/topic" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/lifeibigdata" />
+      <recent name="$PROJECT_DIR$/src/LeetCode/topic/linear" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -506,7 +556,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Of28">
+  <component name="RunManager" selected="Application.Of11_StringPathInMatrix">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -656,8 +706,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Of13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Of13" />
+    <configuration name="Of10_minNumberInRotateArray_optimize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Of10_minNumberInRotateArray_optimize" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -670,8 +720,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Of18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Of18" />
+    <configuration name="Of11_StringPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Of11_StringPathInMatrix" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -684,8 +734,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Of28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Of28" />
+    <configuration name="Of1_getDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Of1_getDuplicate" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -698,8 +748,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Of3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Of3" />
+    <configuration name="Of2_getDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Of2_getDuplicate" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -712,8 +762,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Of6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Of6" />
+    <configuration name="Of6_constructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Of6_constructTree" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -856,19 +906,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Of3" />
-      <item itemvalue="Application.Of6" />
-      <item itemvalue="Application.Of13" />
-      <item itemvalue="Application.Of18" />
-      <item itemvalue="Application.Of28" />
+      <item itemvalue="Application.Of1_getDuplicate" />
+      <item itemvalue="Application.Of2_getDuplicate" />
+      <item itemvalue="Application.Of6_constructTree" />
+      <item itemvalue="Application.Of10_minNumberInRotateArray_optimize" />
+      <item itemvalue="Application.Of11_StringPathInMatrix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Of28" />
-        <item itemvalue="Application.Of18" />
-        <item itemvalue="Application.Of13" />
-        <item itemvalue="Application.Of6" />
-        <item itemvalue="Application.Of3" />
+        <item itemvalue="Application.Of11_StringPathInMatrix" />
+        <item itemvalue="Application.Of10_minNumberInRotateArray_optimize" />
+        <item itemvalue="Application.Of6_constructTree" />
+        <item itemvalue="Application.Of2_getDuplicate" />
+        <item itemvalue="Application.Of1_getDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -1160,12 +1210,36 @@
       <workItem from="1551062708013" duration="1294000" />
       <workItem from="1551064517513" duration="3488000" />
       <workItem from="1551076707040" duration="1099000" />
-      <workItem from="1551078413652" duration="698000" />
+      <workItem from="1551078413652" duration="7828000" />
+      <workItem from="1551103478780" duration="1477000" />
+      <workItem from="1551151645298" duration="2373000" />
+      <workItem from="1551167082477" duration="1949000" />
+      <workItem from="1551171569445" duration="1418000" />
+      <workItem from="1551238231133" duration="5781000" />
+      <workItem from="1551335592924" duration="2019000" />
+      <workItem from="1551339593703" duration="8715000" />
+      <workItem from="1551359781205" duration="2138000" />
+      <workItem from="1551410596424" duration="665000" />
+      <workItem from="1551627619172" duration="557000" />
+      <workItem from="1551700063100" duration="326000" />
+      <workItem from="1551863206235" duration="5591000" />
+      <workItem from="1551879629926" duration="7907000" />
+      <workItem from="1551923755373" duration="1766000" />
+      <workItem from="1552016051761" duration="10883000" />
+      <workItem from="1552040230076" duration="1570000" />
+      <workItem from="1552089639636" duration="9471000" />
+      <workItem from="1552191499178" duration="13992000" />
+      <workItem from="1552226828978" duration="243000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__offer - 2019.02.26 at 11h 31m 04s.xml">
+      <configuration name="All Features in: offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="793674000" />
+    <option name="totallyTimeSpent" value="879645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1177,10 +1251,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="161" y="23" width="1279" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24123879" />
       <window_info id="Structure" order="1" weight="0.24759285" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -1188,18 +1262,18 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32720104" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54178673" weight="0.20488466" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59942365" weight="0.18860245" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19131614" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5742075" weight="0.3052917" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59942365" weight="0.3649932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49713877" weight="0.32806325" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49713877" weight="0.32806325" />
       <window_info anchor="bottom" id="SBT Console" order="9" sideWeight="0.49713877" weight="0.32806325" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6159942" weight="0.16553596" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40057638" side_tool="true" weight="0.18046133" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46397695" weight="0.10040706" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6159942" weight="0.15739484" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.42579252" side_tool="true" weight="0.23880596" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46397695" weight="0.2713704" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32971507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1239,7 +1313,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -1370,25 +1444,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/MousePath.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/MousePath.java</url>
-          <line>67</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Sum100.java</url>
-          <line>28</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tree/Sum100.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
@@ -1418,13 +1492,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Permutation3.java</url>
-          <line>9</line>
+          <line>10</line>
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/Manacher.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/string/ManacherPalindrome.java</url>
+          <line>13</line>
           <properties />
           <option name="timeStamp" value="135" />
         </line-breakpoint>
@@ -1441,12 +1515,6 @@
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/StackImplementByTwoQueues.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/leetcode/ReverseListNode.java</url>
           <line>47</line>
           <properties />
@@ -1454,87 +1522,69 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuictSort.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/QuictSort.java</url>
-          <line>43</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/sort/DelDuplicateListNode.java</url>
-          <line>31</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/offer/Of3.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/offer/Of4.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/src/offer/Of4_replaceBlank.java</url>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/offer/Of8.java</url>
+          <url>file://$PROJECT_DIR$/src/offer/Of10_minNumberInRotateArray.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/offer/Of8.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/offer/Of29.java</url>
+          <url>file://$PROJECT_DIR$/src/offer/Of39_MoreThanHalfNumber.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jikexueyuan/JK1numDecodings.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/SearchBinaryTree.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Graph.java</url>
-          <line>98</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryInsertSort.java</url>
-          <line>16</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/QuickSort.java</url>
-          <line>33</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZipString.java</url>
-          <line>12</line>
+          <line>13</line>
           <properties />
           <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Of1_getDuplicate.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Recursive.java</url>
@@ -1548,6 +1598,14 @@
           <properties class="com.lifeibigdata.algorithms.blog.Recursive" />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/offer/Of1_getDuplicate.java</url>
+          <line>109</line>
+          <properties class="offer.Of1_getDuplicate" method="test4">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1556,332 +1614,345 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/TreeWidth.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of41_StreamMedian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of43_NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/StackImplementByTwoQueues.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of45_SortArrayForMinNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/SearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of46_TranslateNumbersToStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of47_MaxValueOfGifts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of48_LongestSubstringWithoutDup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of49_UglyNumbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/tuck/Euclideanalgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of50_1FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of50_2FirstCharacterInStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of51_InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of44_DigitsInSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of42_GreatestSumOfSubarrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of42_maxSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of52_getFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of53_1NumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of53_2MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of53_3IntegerIdenticalToIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of54_KthTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of55_TreeSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of56_1FindNumsAppearOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of56_2findNumberAppearingOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of57_1twoSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of57_2FindContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of59_2QueueWithMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/QuickSort2.java" />
+    <entry file="file://$PROJECT_DIR$/src/offer/Of64_Accumulate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of68_getLowestCommonParentBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of67_StringToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of66_ConstuctArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/fight/InsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of65_AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/topic/lru/L146_LRUCache.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of63_MaximalProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="326">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/Floyd.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of62_LastNumberInCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/CUnionFindSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/graph/liantongfenliang/TheLongestAthleticTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/Adjacent_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="255">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/Adjacent_Matrix.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of61_ContinousCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/BFS_Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of60_DicesProbability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="528">
+          <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/DFS_Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of1_getDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/GraphFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of2_getDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="416">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/google/StrongConnectedComponents_Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/offer/PrintListReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/topic/linear/L3_lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/GraphTopologic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/ZipString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/BinaryInsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/bilibili/Greedy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oschinablog/SortedArrayToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oschinablog/Treepath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of31.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/Of39.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/Of21.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/Of22.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/Of3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="25" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" lean-forward="true" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="20" lean-forward="true" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of28.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of19.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of3_findKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="18" column="5" selection-end-line="55" />
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Of30.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Of4_replaceBlank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of5_reversePrintLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lifeibigdata/algorithms/blog/StackImplementByTwoQueues.java" />
+    <entry file="file://$PROJECT_DIR$/src/offer/note/bsearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/offer/Of6_constructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of6_constructTree_optimize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of7_getNextTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of8_twoQuenesTwoStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of9_Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of10_minNumberInRotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of10_minNumberInRotateArray_optimize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Of11_StringPathInMatrix_optimize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>

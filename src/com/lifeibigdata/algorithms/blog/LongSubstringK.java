@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * Created by lifei on 16/8/3.
+ *
  */
 public class LongSubstringK {
     public static void main(String[] args) {

@@ -7,11 +7,7 @@ import java.util.Stack;
 
 /**
  * Created by lifei on 2018/6/12.
- * 1. 求二叉树中的节点个数: getNodeNumRec（递归），getNodeNum（迭代）
- * 2. 求二叉树的深度: getDepthRec（递归），getDepth
- * 3. 求二叉树的宽度
- * 4. 前序遍历，中序遍历，后序遍历: preorderTraversalRec, preorderTraversal, inorderTraversalRec, postorderTraversalRec
- * 5. 分层遍历二叉树（按层次从上往下，从左往右）: levelTraversal, levelTraversalRec（递归解法！）
+
  */
 public class BinaryTreeBasic {
 

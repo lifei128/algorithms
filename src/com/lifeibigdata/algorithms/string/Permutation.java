@@ -2,6 +2,7 @@ package com.lifeibigdata.algorithms.string;
 
 /**
  * Created by lifei on 16/5/25.
+ *
  */
 public class Permutation {
 

@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by lifei on 16/9/20.
+ *
  */
 public class HuffmanTree {
     public static void main(String[] args) {

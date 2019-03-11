@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 /**
  * Created by lifei on 2018/6/18.
+ *
  */
 public class Graph {
     public int vertexSize;//顶点数量

@@ -2,6 +2,7 @@ package com.lifeibigdata.bilibili;
 
 /**
  * Created by lifei on 2018/6/27.
+ *
  */
 public class MaxSubstring {
     // 求解两个字符号的最长公共子串

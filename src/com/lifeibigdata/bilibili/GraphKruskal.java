@@ -2,6 +2,7 @@ package com.lifeibigdata.bilibili;
 
 /**
  * Created by lifei on 2018/6/18.
+ *
  */
 public class GraphKruskal {
     class Edege{

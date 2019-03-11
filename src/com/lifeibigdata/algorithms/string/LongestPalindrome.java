@@ -2,6 +2,8 @@ package com.lifeibigdata.algorithms.string;
 
 /**
  * Created by lifei on 16/10/8.
+ *
+ *
  */
 public class LongestPalindrome {
 

@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lifei on 16/9/21.
+ * Created by lifei on 16/9/21.、
+ *
  */
 public class Sum100 {
     static int counts;

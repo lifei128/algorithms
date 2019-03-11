@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by lifei on 2018/6/20.
+ *
  */
 public class Greedy {
     private static int MAX_WEIGHT = 150;

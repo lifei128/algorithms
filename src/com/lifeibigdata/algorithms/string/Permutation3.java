@@ -2,6 +2,7 @@ package com.lifeibigdata.algorithms.string;
 
 /**
  * Created by lifei on 16/10/7.
+ *
  */
 public class Permutation3 {
     static int a[] = {1,2,2,3};

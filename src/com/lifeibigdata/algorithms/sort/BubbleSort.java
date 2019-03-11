@@ -2,6 +2,7 @@ package com.lifeibigdata.algorithms.sort;
 
 /**
  * Created by lifei on 16/8/5.
+ *
  */
 public class BubbleSort {
     public static void main(String[] args) {//TODO 可以向前移动,也可以向后移动

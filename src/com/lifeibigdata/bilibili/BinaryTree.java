@@ -39,12 +39,12 @@ public class BinaryTree {
         if (data.size() == 0) return null;
         String d = data.get(0);
         TreeNode node;
-        int index = size - data.size();   //原长度 - 剩余长度 = 当前节点的坐标
         if (d.equals("#")){
             node = null;
             data.remove(0);
             return node;
         }
+        int index = size - data.size();   //原长度 - 剩余长度 = 当前节点的坐标
         node = new TreeNode(d);
         if (index == 0){
             root = node; // 创建根节点

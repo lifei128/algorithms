@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by lifei on 16/9/21.
+ *
  */
 public class MousePath {
 

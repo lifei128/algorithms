@@ -2,6 +2,7 @@ package com.lifeibigdata.algorithms.sort;
 
 /**
  * Created by lifei on 16/9/19.
+ *
  */
 public class QuictSort {
     public static void main(String[] args) {

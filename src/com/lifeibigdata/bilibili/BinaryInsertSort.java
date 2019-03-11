@@ -2,6 +2,7 @@ package com.lifeibigdata.bilibili;
 
 /**
  * Created by lifei on 2018/6/19.
+ *
  */
 public class BinaryInsertSort {
     public static void main(String[] args) {

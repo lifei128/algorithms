@@ -2,6 +2,7 @@ package com.lifeibigdata.bilibili;
 
 /**
  * Created by lifei on 2018/6/20.
+ * 穷举 泊松分酒
  */
 public class Sharewine {
 
